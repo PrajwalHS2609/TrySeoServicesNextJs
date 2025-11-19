@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Mingzat&display=swap");
+
+.serviceContainer {
+  /* border: solid red; */
+  height: 800px;
+  width: 100%;
+  /* background-color: blue; */
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.serviceCover {
+  /* border: solid green; */
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.412);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 30px;
+  top: 0;
+  right: 0;
+}
+
+.serviceCoverContent1 {
+  /* border: solid red; */
+  width: 40%;
+  padding: 20px;
+  position: relative;
+  margin-top: 30px;
+}
+.serviceCoverContent1 > h6 {
+  border: 1px solid white;
+  width: fit-content;
+  font-weight: 500;
+  font-size: 20px;
+  position: absolute;
+  transform: rotate(-10deg);
+  top: -30px;
+  left: 10px;
+  padding: 10px;
+  color: white;
+}
+.serviceCoverContent1 > h6 > li {
+  position: absolute;
+  font-size: 30px;
+  list-style: square;
+}
+#list1 {
+  top: -20px;
+  left: -5px;
+  color: var(--customColor);
+}
+#list2 {
+  bottom: -20px;
+  left: -5px;
+  color: red;
+}
+#list3 {
+  bottom: -20px;
+  right: -35px;
+  color: blue;
+}
+#list4 {
+  top: -20px;
+  right: -35px;
+  color: lightblue;
+}
+
+.serviceCoverContent1 > h1 {
+  font-size: 60px;
+  text-align: start;
+  color: white;
+}
+.serviceCoverContent1 > h1 > span {
+  color: var(--customColor);
+}
+.serviceCoverContent1 > p {
+  color: white;
+  font-size: 18px;
+  text-align: justify;
+}
+.serviceCoverContent1 > a {
+  text-decoration: none;
+}
+.serviceCoverContent1 > a > button {
+  border: none;
+  padding: 10px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: var(--customColor);
+  color: white;
+  position: relative;
+  overflow: hidden;
+}
+
+.serviceCoverBtnCover {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 50px;
+  padding-top: 10px;
+}
+
+.serviceContainer > video {
+  /* border: solid red; */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 0;
+}
+.serviceCoverBtnCover > a {
+  text-decoration: none;
+  color: white;
+}
+.headerContact-icon {
+  color: white;
+}
+@media screen and (max-width: 768px) {
+  .serviceContainer {
+    /* border: solid red; */
+    width: 100%;
+    height: 100%;
+  }
+
+  .serviceCover {
+    /* border: solid green; */
+    position: static;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    padding: 10px;
+  }
+  .serviceCoverContent1 {
+    /* border: solid blue; */
+    width: 100%;
+    margin-top: 0px;
+  }
+  .serviceCoverContent1 > h1 {
+    font-size: 40px;
+    text-align: center;
+    color: black;
+  }
+  .serviceCoverContent1 > p {
+    color: black;
+    font-size: 18px;
+    text-align: justify;
+  }
+  .serviceCoverContent1 > h6 {
+    display: none;
+  }
+  .serviceCoverBtnCover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 10px;
+  }
+  .serviceArrow {
+    /* border: solid green; */
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    background-color: white;
+    color: black;
+    position: static;
+    z-index: 1;
+    width: 20px;
+    height: 20px;
+  }
+}

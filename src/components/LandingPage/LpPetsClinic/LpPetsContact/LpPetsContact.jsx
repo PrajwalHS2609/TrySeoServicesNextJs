@@ -1,0 +1,146 @@
+"use client";
+import React from "react";
+import "./LpPetsContact.css";
+import Swal from "sweetalert2";
+import {
+  FaArrowRight,
+  FaFacebook,
+  FaInstagram,
+  FaLinkedin,
+  FaYoutube,
+} from "react-icons/fa";
+import arrow from "./../../../../Img/curveArrow.png";
+import Image from "next/image";
+import { FaXTwitter } from "react-icons/fa6";
+
+const LpPetsContact = () => {
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    const form = event.target;
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", "7a49c951-139a-412a-b3a5-6d69beb45d96");
+
+    const object = Object.fromEntries(formData);
+    const json = JSON.stringify(object);
+
+    const res = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json",
+      },
+      body: json,
+    }).then((res) => res.json());
+
+    if (res.success) {
+      Swal.fire({
+        title: "Success!",
+        text: "Mail Sent successfully",
+        icon: "success",
+      });
+      form.reset(); // Clear the form after successful submission
+    } else {
+      Swal.fire({
+        title: "Error!",
+        text: "Failed to send message. Please try again later.",
+        icon: "error",
+      });
+    }
+  };
+  return (
+    <div className="lpPetsContact-container" id="contact-us">
+      <div className="lpPetsContact-wrapper">
+        <div className="lpPetsContact-content">
+          <h2>Let's start a project together</h2>
+          <p>
+            We collaborate with pet clinics to understand their goals, target
+            audience, and unique needs, crafting creative digital strategies and
+            practical solutions that bring measurable results.
+          </p>
+        </div>
+        <div className="lpPetsContact-content">
+          <div className="lpPetsContact-itemContainer">
+            <div className="lpPetsContact-item">
+              <h4>Give us a call:</h4>
+              <a href="tel:6360226773">+91 6360226773</a>
+            </div>
+            <div className="lpPetsContact-item">
+              <h4>Send us an email:</h4>
+              <a href="mailto:info@tryseoservices.com">
+                info@tryseoservices.com
+              </a>
+            </div>
+          </div>
+          <div className="lpPetsContact-itemArrow">
+            <Image src={arrow} alt="arrow" />
+          </div>
+        </div>
+        <div className="lpPetsContact-content">
+          <div className="lpPetsContact-social">
+            <a href="https://www.facebook.com/tryseoservices">
+              {" "}
+              <FaFacebook className="lpPetsContact-socialIcon" />
+            </a>
+          </div>
+          <div className="lpPetsContact-social">
+            <a href="https://x.com/tryseoservices">
+              <FaXTwitter className="lpPetsContact-socialIcon" />
+            </a>
+          </div>
+          <div className="lpPetsContact-social">
+            <a href="https://www.linkedin.com/company/tryseoservices/">
+              {" "}
+              <FaLinkedin className="lpPetsContact-socialIcon" />
+            </a>
+          </div>
+          <div className="lpPetsContact-social">
+            <a href="https://www.instagram.com/tryseoservices/">
+              {" "}
+              <FaInstagram className="lpPetsContact-socialIcon" />
+            </a>
+          </div>
+          <div className="lpPetsContact-social">
+            <a href="https://www.youtube.com/@tryseoservices">
+              {" "}
+              <FaYoutube className="lpPetsContact-socialIcon" />
+            </a>
+          </div>
+        </div>
+      </div>
+      <div className="lpPetsContact-wrapper">
+        <div className="contact-form">
+          <h2>Send us a message</h2>
+          <form action="" onSubmit={onSubmit}>
+            <input type="text" name="name" placeholder="Your name" required />
+            <input
+              type="email"
+              name="email"
+              placeholder="Your email address"
+              required
+            />
+            <input
+              type="phone"
+              name="phone"
+              placeholder="+088-234-6849"
+              required
+            />
+            <textarea
+              name="message"
+              placeholder="Write your message here..."
+              required
+            ></textarea>
+            <button type="submit">
+              Send Message{" "}
+              <span>
+                <FaArrowRight className="lpPetsContact-formIco" />
+              </span>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default LpPetsContact;

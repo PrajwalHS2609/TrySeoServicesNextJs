@@ -1,0 +1,122 @@
+/* ----------------------- MAIN CONTAINER ----------------------- */
+.lpPetsComp-container {
+  width: 100%;
+  padding: 60px 20px;
+  background: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.lpPetsComp-container > h2 {
+  font-size: 60px;
+  font-family: "Syne", sans-serif;
+  font-weight: bold;
+  width: 70%;
+  text-align: center;
+  color: var(--lpCustomBg);
+}
+
+/* ----------------------- CAROUSEL ----------------------- */
+.lpPetsCompCarousel-container {
+  /* border: solid red; */
+  width: 100%;
+  overflow: hidden !important;
+  margin-top: 30px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.lpPetsComp-wrapper {
+    /* border: solid blue; */
+
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lpPetsComp-content {
+  width: 100%;
+  display: flex !important;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* prevents infinite expansion */
+}
+/* Force carousel to stay in one row */
+.react-multi-carousel-item {
+  display: block !important;
+}
+
+.react-multi-carousel-track {
+  display: flex !important;
+  align-items: center !important;
+}
+
+/* ----------------------- ITEM ----------------------- */
+.lpPetsComp-item {
+  border: 5px solid var(--lpCustomBg);
+  border-radius: 20px;
+  width: 650px;
+  height: 500px;
+  position: relative;
+  overflow: hidden;
+  margin: 20px;
+}
+
+.lpPetsComp-item > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ----------------------- COVER TEXT ----------------------- */
+.lpPetsComp-cover {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background: linear-gradient(to bottom, transparent, black);
+  z-index: 1;
+}
+
+.lpPetsComp-cover h3 {
+  color: var(--lpCustomBg);
+  font-family: "Syne", sans-serif;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.lpPetsComp-cover p {
+  color: var(--lpCustomBg);
+  font-size: 20px;
+}
+
+/* ----------------------- MOBILE ----------------------- */
+@media screen and (max-width: 768px) {
+  .lpPetsComp-container {
+    padding: 30px 10px;
+  }
+
+  .lpPetsComp-container > h2 {
+    font-size: 35px;
+    width: 100%;
+  }
+
+  .lpPetsComp-item {
+    width: 100%;
+    height: 380px;
+  }
+
+  .lpPetsComp-cover p {
+    font-size: 18px;
+    text-align: justify;
+  }
+}

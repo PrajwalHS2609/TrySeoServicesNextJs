@@ -1,0 +1,120 @@
+.serviceBook-container {
+  /* border: solid green; */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--customBg);
+  border-radius: 20px;
+}
+.serviceBook-content > h3 {
+  color: var(--customColory);
+}
+.serviceBook-content:nth-child(1) {
+  width: 60%;
+  /* border: solid red; */
+  padding: 20px;
+}
+.serviceBook-content:nth-child(2) {
+  width: 30%;
+  height: 250px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.serviceBook-content:nth-child(2) > img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+.serviceBook-content > button {
+  border-radius: 20px;
+  background-color: var(--customColor);
+  padding: 10px;
+  font-size: 20px;
+  color: white;
+  border: none;
+}
+.serviceSideBarLinks {
+  /* border: solid green; */
+  padding: 20px;
+  background-color: white;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+.serviceSideBarLinks > li {
+  list-style: none;
+  margin-top: 20px;
+  border-radius: 10px;
+  background-color: var(--customBg);
+  transition: 300ms ease;
+  padding: 10px;
+  &:hover {
+    background-color: white;
+  }
+}
+.serviceSideBarLinks > li > a {
+  color: var(--customColor);
+  text-decoration: none;
+  font-weight: 500;
+}
+.serviceSideBarLinks > li:has(a.active) {
+  background-color: white;
+  border: 1px solid var(--customColor);
+}
+.serviceBrochure-container {
+  /* border: solid red; */
+  width: 100%;
+  height: 300px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 0 10px grey;
+}
+.serviceBrochure-content > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.serviceBrochure-content:nth-child(1) {
+  /* border: solid green; */
+  width: 100%;
+  height: 200px;
+}
+.serviceBrochure-content:nth-child(2) {
+  /* border: solid green; */
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.serviceBrochure-content > a {
+  text-decoration: none;
+  color: var(--customColor);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.serviceBrochure-item {
+  /* border: solid; */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.serviceBrochure-item > p {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+.serviceBrochure-icon {
+  color: var(--customColor);
+  font-size: 40px;
+}

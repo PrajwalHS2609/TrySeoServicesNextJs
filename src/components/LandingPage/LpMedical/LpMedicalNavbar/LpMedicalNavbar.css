@@ -1,0 +1,396 @@
+.navBarContainer {
+  /* border: solid red; */
+  width: 100%;
+  height: 85.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: white;
+}
+.navBarWrapper {
+  /* border: solid green; */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+.lpMedical-logoContainer {
+  /* border: solid red; */
+  width: 15%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.lpMedical-logoContainer > a > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: scale(1.5);
+}
+.menuContainer {
+  /* border: solid brown; */
+  width: 70%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px;
+}
+
+.menuContainerWrapper {
+  /* border: solid greenyellow; */
+  list-style: none;
+  height: 100%;
+  width: 70%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* gap: 40px; */
+  padding: 0px;
+  border-radius: 5px;
+  background-color: var(--customColor);
+  cursor: default;
+}
+.menuContainerWrapper > li {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.menuContainerWrapper > li > a {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.menuContainerWrapper > li {
+  /* border: solid; */
+  height: 100%;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 5px;
+  position: relative;
+  &:hover {
+    background-color: var(--customBg);
+  }
+}
+.menuNavIcon1 {
+  color: white;
+  font-size: 10px;
+}
+.menuNavIcon {
+  /* border: solid red; */
+  font-size: 15px;
+}
+/* --------------------------------menuDrop---------------------------- */
+
+.menuDrop {
+  /* border: solid orange; */
+  border-radius: 10px;
+  position: absolute;
+  height: fit-content;
+  width: 300px;
+  top: 70px;
+  z-index: 10;
+  transform: translateY(10px);
+  background-color: white;
+  visibility: hidden;
+  opacity: 0;
+  transition: 300ms ease-in-out;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px;
+  overflow: hidden;
+}
+.menuDrop > li {
+  /* border: solid red; */
+  width: 100%;
+  transition: 300ms ease-in-out;
+  &:hover {
+    transform: translateX(10px);
+  }
+}
+.menuDrop > li > a {
+  text-decoration: none;
+  color: var(--customColor);
+  &:hover {
+    color: var(--customColor2);
+  }
+}
+
+.menuContainerWrapper > li:hover .menuDrop {
+  transform: translateY(-10px);
+  opacity: 1;
+  visibility: visible;
+}
+/* ---------------------respMenuBar--------------------------- */
+.lpMedical-respMenuBar {
+  /* border: solid red; */
+  width: 40px;
+  height: 40px;
+  margin-left: 130px;
+  display: none;
+}
+
+.lpMedicalMenuIcon {
+  width: 100%;
+  height: 100%;
+  color: var(--customColor);
+}
+.lpMedicalMenu-DropIcon {
+  width: 100%;
+  height: 100%;
+  color: var(--customColor);
+}
+.respMenu {
+  /* border: solid blue; */
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  right: 0;
+  transform: translateX(100%);
+  transition: 1s ease;
+  background-color: #0000007c;
+  display: flex;
+  overflow: hidden;
+  z-index: 10;
+}
+
+.innerRespMenu {
+  /* border: solid green; */
+  position: absolute;
+  right: 0;
+  width: 90%;
+  height: 100%;
+  top: 0;
+  transform: translateX(100%);
+  transition: 1s ease;
+  transition-delay: 1s;
+  background-color: rgba(255, 255, 255, 0.692);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  backdrop-filter: blur(10px);
+}
+.respMenuBar > img:hover .respMenu {
+  transform: translateX(0);
+}
+.closeX {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  font-size: 30px;
+}
+
+.innerMenu {
+  /* border: solid red; */
+  height: 80%;
+  width: 90%;
+  overflow: scroll;
+}
+.innerMenu > li {
+  /* border: solid; */
+  /* border-bottom: 1px solid grey; */
+  list-style: none;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+}
+.innerMenu > li:nth-child(1) > a {
+  text-decoration: none;
+  font-size: 20px;
+  width: 100%;
+  color: var(--customDarkBlue);
+  font-weight: 500;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}
+.innerMenu > li > span {
+  text-decoration: none;
+  font-size: 20px;
+  width: 100%;
+  color: var(--customDarkBlue);
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.innerMenu > li > a {
+  text-decoration: none;
+  font-size: 20px;
+  width: 100%;
+  color: var(--customDarkBlue);
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.innerMenu li > a > button {
+  border: solid white;
+  border-radius: 20px;
+  background-color: var(--customBlue);
+  color: white;
+  padding: 10px;
+  font-weight: 500;
+}
+.innerMenu li > a > button:hover {
+  background-color: white;
+  border: solid var(--customBlue);
+  color: var(--customBlue);
+}
+.innerMenuDrop {
+  border: 1px solid grey;
+  width: 100%;
+  border-radius: 20px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+.menuLine {
+  width: 100%;
+  border: 1px solid grey;
+}
+/* ---------------------------respMenuDrop------------------------------ */
+.respDropDown {
+  display: flex;
+  flex-direction: column;
+}
+.respMenuDrop {
+  /* border: solid; */
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  display: none;
+}
+.respMenuDrop > li {
+  margin: 10px;
+  border-bottom: solid 1px var(--customColor2);
+  width: 90%;
+}
+.respMenuDrop > li > a {
+  text-decoration: none;
+  color: var(--customColor);
+  &:hover {
+    color: var(--customColor2);
+  }
+}
+.nav-whatsappIcon {
+  color: white;
+  font-size: 30px;
+}
+/* button */
+.button-29 {
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(
+    100% 100% at 100% 0,
+    #61ff9f 0,
+    #25d366 100%
+  ); /* Light WhatsApp green gradient */
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(37, 211, 102, 0.3) 0 2px 4px,
+    rgba(37, 211, 102, 0.25) 0 7px 13px -3px,
+    rgba(97, 255, 159, 0.5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  height: 48px;
+  justify-content: center;
+  gap: 10px;
+  line-height: 1;
+  overflow: hidden;
+  padding: 0 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow 0.15s, transform 0.15s;
+  user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow, transform;
+  font-size: 18px;
+  margin-left: 20px;
+}
+
+.button-29:focus {
+  box-shadow: #61ff9f 0 0 0 1.5px inset, rgba(37, 211, 102, 0.4) 0 2px 4px,
+    rgba(37, 211, 102, 0.3) 0 7px 13px -3px, #25d366 0 -3px 0 inset;
+}
+
+.button-29:hover {
+  box-shadow: rgba(37, 211, 102, 0.4) 0 4px 8px,
+    rgba(37, 211, 102, 0.3) 0 7px 13px -3px, #61ff9f 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-29:active {
+  box-shadow: #25d366 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .menuContainerList {
+    display: none;
+  }
+  .whatsappBtnMenu {
+    display: none;
+  }
+  .navbarContent {
+    /* border: solid brown; */
+    border-radius: 0px;
+  }
+  .lpMedical-respMenuBar {
+    /* border: solid red; */
+    display: block;
+  }
+
+  .menuContainerWrapper {
+    display: none;
+  }
+  .lpMedical-logoContainer {
+    /* border: solid red; */
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .lpMedical-logoContainer > a > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transform: scale(2);
+  }
+  #respWhatsappBtn{
+    margin-left: 0;
+  }
+}

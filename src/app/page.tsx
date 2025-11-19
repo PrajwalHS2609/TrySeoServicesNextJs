@@ -1,66 +1,35 @@
-import Image from "next/image";
-import styles from "./page.module.css";
-
+import HomeHeader from "./../components/Homepage/HomeHeader/HomeHeader";
+import HomeAbout from "./../components/Homepage/HomeAbout/HomeAbout";
+import HomeService from "./../components/Homepage/HomeService/HomeService";
+import HomeMarquee from "./../components/Homepage/HomeMarquee/HomeMarquee";
+import HomeWorking from "./../components/Homepage/HomeWorking/HomeWorking";
+import HomeWhatWe from "./../components/Homepage/HomeWhatWe/HomeWhatWe";
+import HomeFocused from "./../components/Homepage/HomeFocused/HomeFocused";
+import HomeTestimonial from "./../components/Homepage/HomeTestimonial/HomeTestimonial";
+import HomeClients from "./../components/Homepage/HomeClients/HomeClients";
+import HomeFaq from "./../components/HomeFaq/HomeFaq";
+export const metadata = {
+  title: "Digital Marketing Services in Bangalore, India for Small Business",
+  description: "Digital Marketing Services in Bangalore for Small Business. For High Quality Traffic, Qualified Leads, Online Sales, Maximum Reach, & Search Ranking.",
+  canonical: "https://tryseoservices.com/",
+  keywords: [
+    "Marketing Strategy,Analysis,SEO,Marketing",
+    "Digital Marketing,Business Solutions,",
+  ],
+};
 export default function Home() {
   return (
-    <div className={styles.page}>
-      <main className={styles.main}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className={styles.intro}>
-          <h1>To get started, edit the page.tsx file.</h1>
-          <p>
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className={styles.ctas}>
-          <a
-            className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className={styles.logo}
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className={styles.secondary}
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
+    <div>
+      <HomeHeader />
+      <HomeService />
+      <HomeAbout />
+      <HomeMarquee />
+      <HomeWorking />
+      <HomeFocused />
+      <HomeWhatWe />
+      <HomeClients />
+      <HomeTestimonial />
+      <HomeFaq />
     </div>
   );
 }
