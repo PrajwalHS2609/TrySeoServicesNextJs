@@ -53,22 +53,22 @@
 }
 #list1 {
   top: -20px;
-  left: -5px;
+  left: 18px;
   color: var(--customColor);
 }
 #list2 {
   bottom: -20px;
-  left: -5px;
+  left: 18px;
   color: red;
 }
 #list3 {
   bottom: -20px;
-  right: -35px;
+  right: -18px;
   color: blue;
 }
 #list4 {
   top: -20px;
-  right: -35px;
+  right: -18px;
   color: lightblue;
 }
 
