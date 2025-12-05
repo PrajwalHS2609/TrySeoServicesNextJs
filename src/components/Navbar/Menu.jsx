@@ -45,17 +45,23 @@ const Menu = () => {
       console.log("up");
     }
   };
+  const firstSegment = pathname.split("/")[1];
+
+  // If user is on /in/... use "in", if /ae/... use "ae", else empty
+  const countryPrefix = ["in", "ae", "de"].includes(firstSegment)
+    ? `/${firstSegment}`
+    : "";
   return (
     <div className="menuContainer">
       <div className="menuContainerList">
         <li>
-          <Link href={`/`} className={pathname === "/" ? "active" : ""}>
+          <Link href={`${countryPrefix}/`} className={pathname === "/" ? "active" : ""}>
             Home
           </Link>
         </li>
         <li>
           <Link
-            href={`/website-designing-services-in-bangalore`}
+            href={`${countryPrefix}/website-designing-services-in-bangalore`}
             className={
               pathname === "/website-designing-services-in-bangalore"
                 ? "active"
@@ -67,7 +73,7 @@ const Menu = () => {
         </li>
         <li>
           <Link
-            href={`/seo-services-in-bangalore`}
+            href={`${countryPrefix}/seo-services-in-bangalore`}
             className={
               pathname === "/seo-services-in-bangalore" ? "active" : ""
             }
@@ -77,7 +83,7 @@ const Menu = () => {
         </li>
         <li>
           <Link
-            href={`/google-ads-service-in-bangalore`}
+            href={`${countryPrefix}/google-ads-service-in-bangalore`}
             className={
               pathname === "/google-ads-service-in-bangalore" ? "active" : ""
             }
@@ -87,7 +93,7 @@ const Menu = () => {
         </li>
         <li>
           <Link
-            href={`/social-media-marketing-services-in-bangalore`}
+            href={`${countryPrefix}/social-media-marketing-services-in-bangalore`}
             className={
               pathname === "/social-media-marketing-services-in-bangalore"
                 ? "active"
@@ -99,7 +105,7 @@ const Menu = () => {
         </li>
         <li>
           <Link
-            href={`/content-writing-service-in-bangalore`}
+            href={`${countryPrefix}/content-writing-service-in-bangalore`}
             className={
               pathname === "/content-writing-service-in-bangalore"
                 ? "active"
@@ -117,7 +123,7 @@ const Menu = () => {
           <div className="dropDown" ref={dropRef}>
             <li>
               <Link
-                href={`/payment-gateway-service-in-bangalore`}
+                href={`${countryPrefix}/payment-gateway-service-in-bangalore`}
                 className={
                   pathname === "/payment-gateway-service-in-bangalore"
                     ? "active"
@@ -129,7 +135,7 @@ const Menu = () => {
             </li>
             <li>
               <Link
-                href={`/email-marketing-service-in-bangalore`}
+                href={`${countryPrefix}/email-marketing-service-in-bangalore`}
                 className={
                   pathname === "/email-marketing-service-in-bangalore"
                     ? "active"
@@ -142,7 +148,7 @@ const Menu = () => {
             <li>
               {" "}
               <Link
-                href={`/sms-and-whatsapp-marketing-services-in-bangalore`}
+                href={`${countryPrefix}/sms-and-whatsapp-marketing-services-in-bangalore`}
                 className={
                   pathname ===
                   "/sms-and-whatsapp-marketing-services-in-bangalore"
@@ -157,7 +163,7 @@ const Menu = () => {
         </li>
         <li>
           <Link
-            href={`/contact-us`}
+            href={`${countryPrefix}/contact-us`}
             className={pathname === "/contact-us" ? "active" : ""}
           >
             Contact Us
@@ -176,7 +182,7 @@ const Menu = () => {
             <li className="">
               <Link
                 id="menuNavLink"
-                href={`/`}
+                href={`${countryPrefix}/`}
                 onClick={hideSideBar}
                 className={pathname === "/" ? "active" : ""}
               >
@@ -189,7 +195,7 @@ const Menu = () => {
               <Link
                 id="menuNavLink"
                 onClick={hideSideBar}
-                href={`/website-designing-services-in-bangalore`}
+                href={`${countryPrefix}/website-designing-services-in-bangalore`}
                 className={
                   pathname === "/website-designing-services-in-bangalore"
                     ? "active"
@@ -204,7 +210,7 @@ const Menu = () => {
               <Link
                 id="menuNavLink"
                 onClick={hideSideBar}
-                href={`/seo-services-in-bangalore`}
+                href={`${countryPrefix}/seo-services-in-bangalore`}
                 className={
                   pathname === "/seo-services-in-bangalore" ? "active" : ""
                 }
@@ -217,7 +223,7 @@ const Menu = () => {
               <Link
                 id="menuNavLink"
                 onClick={hideSideBar}
-                href={`/google-ads-service-in-bangalore`}
+                href={`${countryPrefix}/google-ads-service-in-bangalore`}
                 className={
                   pathname === "/google-ads-service-in-bangalore"
                     ? "active"
@@ -232,7 +238,7 @@ const Menu = () => {
               <Link
                 id="menuNavLink"
                 onClick={hideSideBar}
-                href={`/social-media-marketing-services-in-bangalore`}
+                href={`${countryPrefix}/social-media-marketing-services-in-bangalore`}
                 className={
                   pathname === "/social-media-marketing-services-in-bangalore"
                     ? "active"
@@ -248,7 +254,7 @@ const Menu = () => {
               <Link
                 id="menuNavLink"
                 onClick={hideSideBar}
-                href={`/content-writing-service-in-bangalore`}
+                href={`${countryPrefix}/content-writing-service-in-bangalore`}
                 className={
                   pathname === "/content-writing-service-in-bangalore"
                     ? "active"
@@ -272,7 +278,7 @@ const Menu = () => {
                   <Link
                     id="menuNavLink"
                     onClick={hideSideBar}
-                    href={`/payment-gateway-service-in-bangalore`}
+                    href={`${countryPrefix}/payment-gateway-service-in-bangalore`}
                     className={
                       pathname === "/payment-gateway-service-in-bangalore"
                         ? "active"
@@ -287,7 +293,7 @@ const Menu = () => {
                   <Link
                     id="menuNavLink"
                     onClick={hideSideBar}
-                    href={`/email-marketing-service-in-bangalore`}
+                    href={`${countryPrefix}/email-marketing-service-in-bangalore`}
                     className={
                       pathname === "/email-marketing-service-in-bangalore"
                         ? "active"
@@ -302,7 +308,7 @@ const Menu = () => {
                   <Link
                     id="menuNavLink"
                     onClick={hideSideBar}
-                    href={`/sms-and-whatsapp-marketing-services-in-bangalore`}
+                    href={`${countryPrefix}/sms-and-whatsapp-marketing-services-in-bangalore`}
                     className={
                       pathname ===
                       "/sms-and-whatsapp-marketing-services-in-bangalore"
@@ -319,7 +325,7 @@ const Menu = () => {
               {" "}
               <Link
                 id="menuNavLink"
-                href={`/contact-us`}
+                href={`${countryPrefix}/contact-us`}
                 onClick={hideSideBar}
                 className={pathname === "/contact-us" ? "active" : ""}
               >

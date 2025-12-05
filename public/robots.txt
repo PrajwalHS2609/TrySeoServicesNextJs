@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap:https://tryservice.com/sitemap.xml
+Sitemap:https://tryseoservices.com/sitemap.xml

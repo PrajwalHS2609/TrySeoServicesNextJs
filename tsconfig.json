@@ -29,6 +29,6 @@
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts",
     "**/*.mts"
-, "src/app/website-designing-services-in-bangalore/page.jsx"  ],
+, "src/app/website-designing-services-in-bangalore/page.jsx", "src/app/in/page.jsx", "src/app/de/page.jsx"  ],
   "exclude": ["node_modules"]
 }
