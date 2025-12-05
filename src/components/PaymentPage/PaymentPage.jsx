@@ -1,5 +1,5 @@
 import React from "react";
-import HomeTestimonial from "./../HomePage/HomeTestimonial/HomeTestimonial";
+import HomeTestimonial from './../Homepage/HomeTestimonial/HomeTestimonial';
 import PaymentFaq from "./PaymentFaq/PaymentFaq";
 import BreadCrumb from "../BreadCrumb/BreadCrumb";
 import PaymentServiceHead from "./PaymentService/PaymentServiceHead";
