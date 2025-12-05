@@ -1,6 +1,6 @@
 import React, { Suspense } from "react";
 import "./SocialMediaPage.css";
-import HomeTestimonial from "../HomePage/HomeTestimonial/HomeTestimonial";
+import HomeTestimonial from './../Homepage/HomeTestimonial/HomeTestimonial';
 import SocialMediaFaq from "./SocialMediaFaq/SocialMediaFaq";
 import BreadCrumb from "../BreadCrumb/BreadCrumb";
 import SocialMediaServiceHead from "./SocialMediaService/SocialMediaServiceHead";

@@ -9,7 +9,7 @@ import GoogleAdsServiceSubHead from "./GoogleAdsService/GoogleAdsServiceSubHead"
 import ServiceHeader from "./../ServiceHeader/ServiceHeader";
 import ServiceSidebarBrochure from "../ServiceSidebar/ServiceSidebarBrochure";
 import ServiceSidebarLinks from "../ServiceSidebar/ServiceSidebarLinks";
-import HomeTestimonial from "../HomePage/HomeTestimonial/HomeTestimonial";
+import HomeTestimonial from './../Homepage/HomeTestimonial/HomeTestimonial';
 import ServiceBook from "../ServiceSidebar/ServiceBook";
 
 const GoogleAdsPage = () => {

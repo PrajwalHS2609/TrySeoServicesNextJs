@@ -1,5 +1,4 @@
 import React from "react";
-import HomeTestimonial from "../HomePage/HomeTestimonial/HomeTestimonial";
 import EmailFaq from "./EmailFaq/EmailFaq";
 import BreadCrumb from "../BreadCrumb/BreadCrumb";
 import EmailPageServicesHead from "./EmailPageServices/EmailPageServicesHead";
@@ -9,6 +8,7 @@ import ServiceBook from "../ServiceSidebar/ServiceBook";
 import ServiceSidebarBrochure from "../ServiceSidebar/ServiceSidebarBrochure";
 import ServiceSidebarLinks from "../ServiceSidebar/ServiceSidebarLinks";
 import EmailPageServicesSubHead from "./EmailPageServices/EmailPageServicesSubHead";
+import HomeTestimonial from './../Homepage/HomeTestimonial/HomeTestimonial';
 
 const EmailPage = () => {
   return (

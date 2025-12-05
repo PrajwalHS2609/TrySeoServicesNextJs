@@ -1,10 +1,9 @@
 import React, { Suspense } from "react";
-import HomeTestimonial from "./../HomePage/HomeTestimonial/HomeTestimonial";
+import HomeTestimonial from './../Homepage/HomeTestimonial/HomeTestimonial';
 import SmsService from "./SmsService/SmsService";
 import SmsFaq from "./SmsFaq/SmsFaq";
 import BreadCrumb from "../BreadCrumb/BreadCrumb";
 import SmsServiceHead from "./SmsService/SmsServiceHead";
-import SeoServiceBook from "../SeoPage/SeoService/SeoServiceBook";
 import SmsServiceSubHead from "./SmsService/SmsServiceSubHead";
 import ServiceHeader from "./../ServiceHeader/ServiceHeader";
 import ServiceSidebarBrochure from "../ServiceSidebar/ServiceSidebarBrochure";
