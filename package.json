@@ -14,7 +14,7 @@
     "@sanity/image-url": "^1.2.0",
     "@sanity/vision": "^4.15.0",
     "bootstrap": "^5.3.8",
-    "next": "16.0.3",
+    "next": "16.0.7",
     "next-sanity": "^11.6.7",
     "react": "19.2.0",
     "react-bootstrap": "^2.10.10",
@@ -34,7 +34,7 @@
     "babel-plugin-react-compiler": "1.0.0",
     "baseline-browser-mapping": "^2.9.2",
     "eslint": "^9",
-    "eslint-config-next": "16.0.3",
+    "eslint-config-next": "16.0.7",
     "typescript": "^5"
   }
 }
