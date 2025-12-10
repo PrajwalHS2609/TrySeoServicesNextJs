@@ -4,7 +4,8 @@ import { SanityImageSource } from "@sanity/image-url/lib/types/types";
 import { PortableText } from "@portabletext/react";
 import "@/components/style.css";
 import { client } from "@/sanity/client";
-
+import Carousel from "react-bootstrap/Carousel";
+import "bootstrap/dist/css/bootstrap.min.css";
 const builder = imageUrlBuilder(client);
 function urlFor(source: SanityImageSource) {
   return builder.image(source);
@@ -32,7 +33,27 @@ interface FAQBlockValue {
   title?: string;
   items: FAQItem[];
 }
-
+interface QuoteBlockValue {
+  text: string;
+  author?: string;
+}
+export interface ContentHighlight {
+  title: string;
+  description?: string;
+}
+interface CarouselImage {
+  _type: "image";
+  asset: {
+    _ref: string;
+  };
+  alt?: string;
+  caption?: string;
+  link?: string;
+}
+interface CarouselBlockValue {
+  title?: string;
+  images: CarouselImage[];
+}
 export const portableTextComponents: PortableTextComponents = {
   types: {
     // 🖼️ Image Renderer
@@ -134,6 +155,78 @@ export const portableTextComponents: PortableTextComponents = {
             ))}
           </div>
         </div>
+      );
+    },
+
+    // --------------------------------------Quote------------------------------------
+    // 📝 Quote Block Renderer
+    quoteBlock: ({ value }: { value: QuoteBlockValue }) => {
+      if (!value?.text) return null;
+
+      return (
+        <blockquote className="quote-block">
+          <p className="quote-text"> {value.text} </p>
+          {value.author && (
+            <cite className="quote-author">— {value.author}</cite>
+          )}
+        </blockquote>
+      );
+    },
+
+    // ----------------------------------HighlightBlock----------------------------------
+    highlightBlock: ({ value }) => {
+      return (
+        <div className="highlight-box">
+          {value.title && <h5 className="highlight-title">{value.title}</h5>}
+          <div className="highlight-content">
+            <PortableText
+              value={value.content}
+              components={portableTextComponents}
+            />
+          </div>
+        </div>
+      );
+    },
+
+    // ----------------------------Carousel--------------------------------
+    carouselBlock: ({ value }: { value: CarouselBlockValue }) => {
+      if (!value?.images?.length) return null;
+
+      return (
+        <Carousel className="carouselContainer" interval={3000}>
+          {value.images.map((img: CarouselImage, i: number) => {
+            // ✅ Build URL with Sanity's image URL builder
+            const imageUrl = img.asset?._ref ? urlFor(img.asset).url() : null;
+
+            if (!imageUrl) return null;
+
+            const ImageElement = (
+              <img
+                src={imageUrl}
+                alt={img.alt || `Slide ${i + 1}`}
+                className="d-block w-100 rounded"
+              />
+            );
+
+            return (
+              <Carousel.Item key={i} className="carouselItem">
+                {img.link ? (
+                  <a href={img.link} target="_blank" rel="noopener noreferrer">
+                    {ImageElement}
+                  </a>
+                ) : (
+                  ImageElement
+                )}
+
+                {img.caption && (
+                  <Carousel.Caption>
+                    <h3>{img.caption}</h3>
+                  </Carousel.Caption>
+                )}
+              </Carousel.Item>
+            );
+          })}
+        </Carousel>
       );
     },
   },
