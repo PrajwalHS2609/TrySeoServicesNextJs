@@ -8,7 +8,7 @@ const LpMedicalHeader = () => {
     document.querySelector(".popup").style.display = "flex";
   };
   return (
-    <div className="lpMedicalHeader-container">
+    <div className="lpMedicalHeader-container" id="home">
       <video src="/Vid/LpMedicalBannerVideo.mp4" autoPlay muted loop></video>
       {/* <img src={doc} alt="header-img" /> */}
       <div className="lpMedicalHeader-cover">

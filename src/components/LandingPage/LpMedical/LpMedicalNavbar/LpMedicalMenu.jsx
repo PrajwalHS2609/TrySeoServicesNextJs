@@ -28,7 +28,7 @@ const LpMedicalMenu = () => {
     <div className="menuContainer">
       <div className="menuContainerWrapper">
         <li>
-          <Link href={"/"} >
+          <Link href={"#home"} >
             Home
           </Link>
         </li>
