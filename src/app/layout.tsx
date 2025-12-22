@@ -10,8 +10,8 @@ import "@/components/style.css";
 import { usePathname } from "next/navigation";
 import LpMedicalNavbar from "./../components/LandingPage/LpMedical/LpMedicalNavbar/LpMedicalNavbar";
 import LpPetsNavbar from "./../components/LandingPage/LpPetsClinic/LpPetsNavbar/LpPetsNavbar";
-import SnowFall from './../components/Christmas/SnowFall/SnowFall';
-import SantaClause from './../components/Christmas/SantaClause/SantaClause';
+import SnowFall from "./../components/Christmas/SnowFall/SnowFall";
+import SantaClause from "./../components/Christmas/SantaClause/SantaClause";
 
 const archivo = Archivo({
   subsets: ["latin"],
@@ -33,11 +33,15 @@ export default function RootLayout({
           name="viewport"
           content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
         />
+        <meta
+          name="google-site-verification"
+          content="FWwxRSWdpG_SfI8-B-tFo1rG19PEXzw3QdeDSlQF2aA"
+        />
       </head>
 
       <body className={archivo.className}>
-        <SnowFall/>
-        <SantaClause/>
+        <SnowFall />
+        <SantaClause />
         {/* Correct Navbar Logic */}
         {isMedicalLanding ? (
           <LpMedicalNavbar />
