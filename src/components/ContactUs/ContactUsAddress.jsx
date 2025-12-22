@@ -30,7 +30,7 @@ const ContactUsAddress = () => {
         {" "}
         <FaEnvelope className="footerAdd" />
         <p>
-          <a href="mailto:info@tryservice.com">info@tryservice.com</a>
+          <a href="mailto:info@tryseoservice.com">info@tryseoservice.com</a>
         </p>
       </li>
     </div>
