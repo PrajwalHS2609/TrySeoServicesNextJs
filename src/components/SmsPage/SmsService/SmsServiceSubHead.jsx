@@ -12,9 +12,9 @@ const SmsServiceSubHead = () => {
         platforms are essential tools for businesses seeking to remain relevant
         in a highly competitive market.
       </p>
-      <h4>Tryservice.com: Your SMS & WhatsApp Marketing Partner</h4>
+      <h4>Tryseoservices.com: Your SMS & WhatsApp Marketing Partner</h4>
       <p>
-        Tryservice.com understands the nuances of the Bangalore market and
+        Tryseoservices.com understands the nuances of the Bangalore market and
         recognizes the significance of staying ahead in the digital game. Here’s
         what sets our SMS & WhatsApp Marketing Services apart:
       </p>

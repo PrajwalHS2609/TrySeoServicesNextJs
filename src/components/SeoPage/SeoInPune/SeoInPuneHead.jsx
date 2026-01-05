@@ -9,7 +9,7 @@ const SeoInPuneHead = () => {
         of a robust digital presence to capture their target audience. With
         competition rising, it’s essential to have your business rank high on
         search engines to stand out from the crowd. That’s where{" "}
-        <a href="https://tryservice.com/seo-services-in-pune">
+        <a href="https://Tryseoservices.com/seo-services-in-pune">
           {" "}
           SEO services in Pune
         </a>{" "}
@@ -19,7 +19,7 @@ const SeoInPuneHead = () => {
       </p>
       <p>
         Let’s dive deeper into how{" "}
-        <a href="https://tryservice.com/seo-services-in-pune">
+        <a href="https://Tryseoservices.com/seo-services-in-pune">
           SEO services in Pune
         </a>{" "}
         can transform your business by establishing a solid online footprint and

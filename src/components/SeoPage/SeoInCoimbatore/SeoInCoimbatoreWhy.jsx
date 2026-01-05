@@ -9,7 +9,7 @@ const SeoInCoimbatoreWhy = () => {
         Whether you’re a local business owner or run a larger enterprise,
         appearing in top search results can significantly increase visibility.
         By investing in{" "}
-        <a href="https://tryservice.com/seo-services-in-coimbatore">
+        <a href="https://Tryseoservices.com/seo-services-in-coimbatore">
           SEO services in Coimbatore
         </a>
         , businesses can benefit from:

@@ -23,7 +23,7 @@ const SeoInPune = () => {
         />
         <link
           rel="canonical"
-          href="https://tryservice.com/seo-services-in-pune"
+          href="https://Tryseoservices.com/seo-services-in-pune"
         />
       </Helmet>
       <SeoHeader />

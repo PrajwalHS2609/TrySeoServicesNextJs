@@ -3,9 +3,9 @@ import React from "react";
 const SocialMediaServiceSubHead = () => {
   return (
     <div className="serviceSubHead-container">
-      <h2>Tryservice.com: Your Social Media Marketing Ally</h2>
+      <h2>Tryseoservices.com: Your Social Media Marketing Ally</h2>
       <p>
-        At Tryservice.com, we understand the intricacies of the digital
+        At Tryseoservices.com, we understand the intricacies of the digital
         landscape in Bangalore. Our team of experts is dedicated to helping
         businesses harness the full potential of social media marketing. Here’s
         what sets our services apart:

@@ -34,7 +34,7 @@ const FooterAddress = (props) => {
           className="footerAdd"
         ></FontAwesomeIcon>
         <p>
-          <a href="mailto:info@tryservice.com">info@tryservice.com</a>
+          <a href="mailto:info@Tryseoservices.com">info@Tryseoservices.com</a>
         </p>
       </li>
     </div>

@@ -8,12 +8,12 @@ const WebsiteServiceBrochure = () => {
     <div className="websiteServiceBrochure-container">
       <div className="websiteServiceBrochure-content">
         <img
-          src="https://tryservice.com/static/media/WebsiteDesign.866771fb3a2ba7f2063f.png"
+          src="https://Tryseoservices.com/static/media/WebsiteDesign.866771fb3a2ba7f2063f.png"
           alt=""
         />
       </div>
       <div className="websiteServiceBrochure-content">
-        <a href="/Tryservice.pdf" download>
+        <a href="/Tryseoservices.pdf" download>
           <div className="websiteServiceBrochure-item">
             <p>Download Brochure</p>{" "}
             <IoDownloadOutline className="websiteServiceBrochure-icon" />

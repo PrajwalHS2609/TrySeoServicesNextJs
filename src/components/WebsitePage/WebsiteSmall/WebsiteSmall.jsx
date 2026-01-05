@@ -26,7 +26,7 @@ const WebsiteSmall = () => {
         />
         <link
           rel="canonical"
-          href="https://tryservice.com/website-design-in-bangalore-at-rs-10000"
+          href="https://Tryseoservices.com/website-design-in-bangalore-at-rs-10000"
         />
       </Helmet>
       <WebsiteHeader />

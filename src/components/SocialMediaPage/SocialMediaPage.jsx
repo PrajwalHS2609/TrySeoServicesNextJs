@@ -11,6 +11,7 @@ import ServiceHeader from "../ServiceHeader/ServiceHeader";
 import ServiceBook from "./../ServiceSidebar/ServiceBook";
 import ServiceSidebarBrochure from "../ServiceSidebar/ServiceSidebarBrochure";
 import ServiceSidebarLinks from "../ServiceSidebar/ServiceSidebarLinks";
+import SocialMediaContent from "./SocialMediaContent";
 
 const SocialMediaPage = () => {
   return (
@@ -20,7 +21,7 @@ const SocialMediaPage = () => {
         beforeTitle="We Boost Your "
         highlight="Brand Visibility "
         afterTitle=""
-        para="In the ever-evolving digital landscape, social media has emerged as a powerful tool for businesses to connect with their audience, build brand awareness, and drive real results. Bangalore, known as India’s Silicon Valley, is at the forefront of this digital revolution. In the heart of this tech-savvy city, Tryservice.com is your trusted partner for navigating the dynamic world of social media marketing."
+        para="In the ever-evolving digital landscape, social media has emerged as a powerful tool for businesses to connect with their audience, build brand awareness, and drive real results. Bangalore, known as India’s Silicon Valley, is at the forefront of this digital revolution. In the heart of this tech-savvy city, Tryseoservices.com is your trusted partner for navigating the dynamic world of social media marketing."
       />{" "}
       <BreadCrumb txt="Social Media " />
       <div className="component-container">
@@ -40,6 +41,7 @@ const SocialMediaPage = () => {
       <HomeTestimonial />
       <SocialMediaPackage />
       <SocialMediaFaq />
+      <SocialMediaContent/>
     </div>
   );
 };

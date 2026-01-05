@@ -7,7 +7,7 @@ const SeoInMysoreWhy = () => {
       <h5>Why Local SEO Matters for Mysore Businesses?</h5>
       <p>
         For businesses operating in Mysore, local SEO is especially important.
-        <a href="https://tryservice.com/local-seo-services-in-bangalore">
+        <a href="https://Tryseoservices.com/local-seo-services-in-bangalore">
           {" "}
           Local SEO helps small and medium-sized businesses
         </a>{" "}

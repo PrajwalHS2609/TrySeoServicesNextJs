@@ -24,7 +24,7 @@ const WhatsApp = () => {
       </a> */}
       <FloatingWhatsApp
         phoneNumber="916360226773"
-        accountName="Tryservice"
+        accountName="Tryseoservices"
         avatar={TSS.src} // Optional
         statusMessage="Typically replies within 5 min" // Optional
         chatMessage="Welcome to TrySeoService! Boost your business with expert digital marketing! Call Now ~ +91 6360226773" // Optional

@@ -19,11 +19,11 @@ const OnPageSeo = () => {
         </title>
         <meta
           name="description"
-          content="On-Page SEO Services in Bangalore. At Tryservice.com, we specialize in providing tailored On-Page SEO Services in Bangalore that cater to the unique needs of your business."
+          content="On-Page SEO Services in Bangalore. At Tryseoservices.com, we specialize in providing tailored On-Page SEO Services in Bangalore that cater to the unique needs of your business."
         />
         <link
           rel="canonical"
-          href="https://tryservice.com/on-page-seo-services-in-bangalore"
+          href="https://Tryseoservices.com/on-page-seo-services-in-bangalore"
         />
       </Helmet>
       <SeoHeader />

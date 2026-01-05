@@ -13,7 +13,7 @@ const SeoServiceBook = () => {
       <div className="seoServiceBook-content">
         <h3>Book an Appointment</h3>
         <p>
-          Ready to elevate your business? Partner with Tryservice.Com and
+          Ready to elevate your business? Partner with Tryseoservices.Com and
           kickstart your journey to digital success!
         </p>
         <button className="cssbuttons-io-button" onClick={handlePopUp}>

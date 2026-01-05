@@ -6,7 +6,7 @@ const WebsiteSmallWhat = () => {
       <h3>What Sets Our Website Design in Bangalore at Rs.10000 Apart?</h3>
       <p>
         We pride ourselves on providing high-quality{" "}
-        <a href="https://tryservice.com/website-design-in-bangalore-at-rs-10000">
+        <a href="https://Tryseoservices.com/website-design-in-bangalore-at-rs-10000">
           Website Design in Bangalore at Rs.10000
         </a>{" "}
         that stands out from the competition. Here’s what makes us unique:
@@ -40,7 +40,7 @@ const WebsiteSmallWhat = () => {
         <p>
           Whether you need a simple one-page website or a more complex site with
           multiple functionalities, our{" "}
-          <a href="https://tryservice.com/website-design-in-bangalore-at-rs-10000">
+          <a href="https://Tryseoservices.com/website-design-in-bangalore-at-rs-10000">
             Website Design in Bangalore at Rs.10000
           </a>
           can accommodate your needs.

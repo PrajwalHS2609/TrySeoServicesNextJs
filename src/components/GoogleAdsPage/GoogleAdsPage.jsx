@@ -11,6 +11,7 @@ import ServiceSidebarBrochure from "../ServiceSidebar/ServiceSidebarBrochure";
 import ServiceSidebarLinks from "../ServiceSidebar/ServiceSidebarLinks";
 import HomeTestimonial from './../Homepage/HomeTestimonial/HomeTestimonial';
 import ServiceBook from "../ServiceSidebar/ServiceBook";
+import GoogleAdsContent from "./GoogleAdsContent";
 
 const GoogleAdsPage = () => {
   return (
@@ -42,6 +43,7 @@ const GoogleAdsPage = () => {
       <GoogleAdsPackage />
       <HomeTestimonial />
       <GoogleAdsFaq />
+      <GoogleAdsContent/>
     </div>
   );
 };

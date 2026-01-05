@@ -26,7 +26,7 @@ const SmsHeader = () => {
               In the bustling city of Bangalore, where innovation and technology
               converge, businesses are constantly on the lookout for new and
               effective ways to connect with their audience. Enter
-              Tryservice.com, your digital marketing ally, here to shine a
+              Tryseoservices.com, your digital marketing ally, here to shine a
               light on how our SMS and WhatsApp Marketing Services in Bangalore
               are transforming the way businesses engage, inform, and drive
               growth in this vibrant tech hub.

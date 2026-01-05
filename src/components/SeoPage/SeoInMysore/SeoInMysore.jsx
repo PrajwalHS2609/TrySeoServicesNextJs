@@ -21,7 +21,7 @@ const SeoInMysore = () => {
         />
         <link
           rel="canonical"
-          href="https://tryservice.com/seo-services-in-mysore"
+          href="https://Tryseoservices.com/seo-services-in-mysore"
         />
       </Helmet>
       <SeoHeader />

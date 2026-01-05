@@ -12,7 +12,7 @@ const ServiceSidebarBrochure = () => {
         />
       </div>
       <div className="serviceBrochure-content">
-        <a href="/Tryservice.pdf" download>
+        <a href="/Tryseoservices.pdf" download>
           <div className="serviceBrochure-item">
             <p>Download Brochure</p>{" "}
             <IoDownloadOutline className="serviceBrochure-icon" />

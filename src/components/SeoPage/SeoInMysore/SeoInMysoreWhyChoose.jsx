@@ -6,7 +6,7 @@ const SeoInMysoreWhyChoose = () => {
       <h2>Why Choose a Local SEO Agency in Mysore?</h2>
       <p>
         When it comes to{" "}
-        <a href="https://tryservice.com/on-page-seo-services-in-bangalore">
+        <a href="https://Tryseoservices.com/on-page-seo-services-in-bangalore">
           SEO Services in Mysore
         </a>
         , partnering with a local agency has distinct advantages. Local agencies

@@ -5,8 +5,8 @@ const LocalSeoKey = () => {
     <div className="onPageSeoKey">
       <h3>Key Components of Our Local SEO Services</h3>
       <p>
-        At Tryservice.com, our{" "}
-        <a href="https://tryservice.com/local-seo-services-in-bangalore  ">
+        At Tryseoservices.com, our{" "}
+        <a href="https://Tryseoservices.com/local-seo-services-in-bangalore  ">
           Local SEO Services in Bangalore
         </a>{" "}
         are designed to help your business achieve maximum visibility and

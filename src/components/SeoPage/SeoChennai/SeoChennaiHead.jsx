@@ -9,13 +9,13 @@ const SeoChennaiHead = () => {
         businesses of all sizes. As more consumers search online before making
         purchasing decisions, it’s crucial for businesses to be visible in
         search engine results.{" "}
-        <a href="https://tryservice.com/seo-services-in-chennai">
+        <a href="https://Tryseoservices.com/seo-services-in-chennai">
           SEO services in Chennai
         </a>{" "}
         provide local businesses with strategies and tools to improve search
         engine rankings, drive traffic, and ultimately boost revenue. With
         expert{" "}
-        <a href="https://tryservice.com/seo-services-in-chennai">
+        <a href="https://Tryseoservices.com/seo-services-in-chennai">
           SEO services in Chennai
         </a>
         , businesses can maximize their reach, attract more local customers, and

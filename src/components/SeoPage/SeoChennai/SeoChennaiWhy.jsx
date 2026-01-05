@@ -9,7 +9,7 @@ const SeoChennaiWhy = () => {
         Chennai is a bustling metropolitan city with diverse industries—from
         automotive and healthcare to IT and education. As competition grows,
         standing out online becomes increasingly difficult.{" "}
-        <a href="https://tryservice.com/seo-services-in-coimbatore">
+        <a href="https://Tryseoservices.com/seo-services-in-coimbatore">
           SEO services in Chennai
         </a>{" "}
         offer tailored solutions to help businesses overcome this challenge.

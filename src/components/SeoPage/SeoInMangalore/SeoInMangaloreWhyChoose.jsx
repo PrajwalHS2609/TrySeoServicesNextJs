@@ -44,7 +44,7 @@ const SeoInMangaloreWhyChoose = () => {
       </p>
       <p>
         With the right{" "}
-        <a href="https://tryservice.com/seo-services-in-mangalore">
+        <a href="https://Tryseoservices.com/seo-services-in-mangalore">
           {" "}
           SEO Services in Mangalore
         </a>
@@ -56,7 +56,7 @@ const SeoInMangaloreWhyChoose = () => {
       <p>
         In today’s digital age, investing in SEO is no longer optional—it’s
         essential.{" "}
-        <a href="https://tryservice.com/local-seo-services-in-bangalore">
+        <a href="https://Tryseoservices.com/local-seo-services-in-bangalore">
           SEO Services in Mangalore
         </a>{" "}
         provide businesses with the means to improve visibility, drive more
@@ -66,7 +66,7 @@ const SeoInMangaloreWhyChoose = () => {
       </p>
       <p>
         From optimizing your website’s content to building valuable backlinks,
-        <a href="https://tryservice.com/"> SEO experts in Mangalore</a>{" "}
+        <a href="https://Tryseoservices.com/"> SEO experts in Mangalore</a>{" "}
         offer comprehensive solutions that cater to your business needs. With
         SEO’s long-term benefits, you’re investing in a marketing strategy that
         keeps on giving, helping your business succeed in the digital age.

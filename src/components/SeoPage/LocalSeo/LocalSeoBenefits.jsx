@@ -4,10 +4,10 @@ import point from "./../../../Img/point.png";
 const LocalSeoBenefits = () => {
   return (
     <div className="OnPageSeoWhy">
-      <h5>Benefits of Choosing Tryservice.com for Local SEO</h5>
+      <h5>Benefits of Choosing Tryseoservices.com for Local SEO</h5>
       <p>
         When you partner with us for{" "}
-        <a href="https://tryservice.com/seo-services-in-bangalore   ">
+        <a href="https://Tryseoservices.com/seo-services-in-bangalore   ">
           Local SEO Services in Bangalore
         </a>
         , you gain access to a dedicated team of SEO professionals committed to
@@ -71,18 +71,18 @@ const LocalSeoBenefits = () => {
       </ul>
       <p>
         Investing in{" "}
-        <a href="https://tryservice.com/seo-services-in-bangalore">
+        <a href="https://Tryseoservices.com/seo-services-in-bangalore">
           Local SEO Services in Bangalore
         </a>{" "}
         is essential for businesses looking to thrive in a competitive digital
-        landscape. At Tryservice.com, we provide comprehensive and tailored
+        landscape. At Tryseoservices.com, we provide comprehensive and tailored
         local SEO strategies designed to improve your visibility, attract
         targeted traffic, and drive conversions.
       </p>
       <p>
         Don't let your business get lost in the vast online marketplace. Contact
         us today to learn more about our{" "}
-        <a href="https://tryservice.com/seo-services-in-bangalore">
+        <a href="https://Tryseoservices.com/seo-services-in-bangalore">
           Local SEO Services in Bangalore
         </a>{" "}
         and how we can help you dominate your local market. Together, we can
@@ -91,7 +91,7 @@ const LocalSeoBenefits = () => {
       </p>
       <p>
         Let us take care of your SEO needs while you focus on what you do
-        best—running your business! Reach out to Tryservice.com today and
+        best—running your business! Reach out to Tryseoservices.com today and
         take the first step toward digital success with our On-Page SEO Services
         in Bangalore.
       </p>

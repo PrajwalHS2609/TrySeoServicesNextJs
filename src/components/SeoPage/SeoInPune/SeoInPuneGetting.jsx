@@ -6,7 +6,7 @@ const SeoInPuneGetting = () => {
       <h2>Getting Started with SEO Services in Pune</h2>
       <p>
         If you’re ready to take your business to the next level,{" "}
-        <a href="https://tryservice.com/seo-services-in-pune">
+        <a href="https://Tryseoservices.com/seo-services-in-pune">
           SEO services in Pune
         </a>{" "}
         are a wise investment. By partnering with an experienced SEO provider,
@@ -16,7 +16,7 @@ const SeoInPuneGetting = () => {
       <p>
         With tailored strategies, consistent optimization, and data-driven
         insights,{" "}
-        <a href="https://tryservice.com/seo-services-in-pune">
+        <a href="https://Tryseoservices.com/seo-services-in-pune">
           {" "}
           SEO services in Pune
         </a>{" "}
@@ -30,7 +30,7 @@ const SeoInPuneGetting = () => {
       <p>
         In an ever-evolving digital world, SEO is crucial for business growth
         and sustainability.{" "}
-        <a href="https://tryservice.com/seo-services-in-pune">
+        <a href="https://Tryseoservices.com/seo-services-in-pune">
           {" "}
           SEO services in Pune
         </a>{" "}
@@ -42,7 +42,7 @@ const SeoInPuneGetting = () => {
       </p>
       <p>
         With{" "}
-        <a href="https://tryservice.com/seo-services-in-pune">
+        <a href="https://Tryseoservices.com/seo-services-in-pune">
           SEO services in Pune
         </a>
         , you’re not just investing in website traffic—you’re investing in a

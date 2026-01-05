@@ -8,7 +8,7 @@ const SeoInPuneWhat = () => {
       <p>
         With an increasingly digital marketplace, Pune businesses need to be
         where their customers are: online. SEO, or{" "}
-        <a href="https://tryservice.com/seo-services-in-bangalore">
+        <a href="https://Tryseoservices.com/seo-services-in-bangalore">
           Search Engine Optimization
         </a>
         , is the most effective way to ensure that your website appears
@@ -71,7 +71,7 @@ const SeoInPuneWhat = () => {
       <p>
         Whether it’s targeting customers looking for local services or reaching
         a national audience,{" "}
-        <a href="https://tryservice.com/">SEO services in Pune</a> can craft
+        <a href="https://Tryseoservices.com/">SEO services in Pune</a> can craft
         a customized approach to achieve your business goals.
       </p>
     </div>

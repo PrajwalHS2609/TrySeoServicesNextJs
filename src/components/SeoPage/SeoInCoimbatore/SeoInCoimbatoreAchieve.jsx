@@ -11,7 +11,7 @@ const SeoInCoimbatoreAchieve = () => {
         strategy doesn’t just help your website rank better; it drives targeted
         traffic, builds trust, and positions your business as an industry
         leader. With comprehensive{" "}
-        <a href="https://tryservice.com/seo-services-in-mangalore">
+        <a href="https://Tryseoservices.com/seo-services-in-mangalore">
           SEO services in Coimbatore
         </a>
         , local businesses can overcome digital challenges and capitalize on

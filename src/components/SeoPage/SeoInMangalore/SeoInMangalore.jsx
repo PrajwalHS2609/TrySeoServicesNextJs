@@ -22,7 +22,7 @@ const SeoInMangalore = () => {
         />
         <link
           rel="canonical"
-          href="https://tryservice.com/seo-services-in-mangalore"
+          href="https://Tryseoservices.com/seo-services-in-mangalore"
         />
       </Helmet>
       <SeoHeader />

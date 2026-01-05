@@ -10,6 +10,7 @@ import ServiceSidebarLinks from "./../ServiceSidebar/ServiceSidebarLinks";
 import ServiceSidebarBrochure from "./../ServiceSidebar/ServiceSidebarBrochure";
 import WebsiteServiceBenefits from "./WebsiteService/WebsiteServiceBenefits";
 import ServiceBook from "./../ServiceSidebar/ServiceBook";
+import WebsiteContent from './WebsiteContent';
 
 const WebsitePage = () => {
   return (
@@ -40,6 +41,7 @@ const WebsitePage = () => {
       </div>
       <WebsitePackage />
       <WebsiteFaq />
+      <WebsiteContent/>
     </div>
   );
 };

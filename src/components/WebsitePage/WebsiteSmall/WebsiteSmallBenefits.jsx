@@ -7,7 +7,7 @@ const WebsiteSmallBenefits = () => {
       <h5>Benefits of Choosing Website Design in Bangalore at Rs.10000</h5>
       <p>
         When you opt for Website Design in Bangalore at Rs.10000 from
-        Tryservice.com, you’re not just getting a website; you’re getting a
+        Tryseoservices.com, you’re not just getting a website; you’re getting a
         full suite of benefits that help your business grow. Here’s what you can
         look forward to:
       </p>

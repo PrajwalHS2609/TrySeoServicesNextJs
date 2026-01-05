@@ -1,4 +1,4 @@
-import React, { Suspense } from "react";
+import React from "react";
 import "./SeoPage.css";
 import SeoService from "./SeoService/SeoService";
 import BreadCrumb from "../BreadCrumb/BreadCrumb";
@@ -11,6 +11,8 @@ import ServiceSidebarBrochure from "./../ServiceSidebar/ServiceSidebarBrochure";
 import ServiceSidebarLinks from "./../ServiceSidebar/ServiceSidebarLinks";
 import ServiceHeader from "./../ServiceHeader/ServiceHeader";
 import ServiceBook from "../ServiceSidebar/ServiceBook";
+import SeoContent from "./SeoContent";
+import SeoFaq from "./SeoFaq/SeoFaq";
 
 // import HomeHeader from "../HomePage/HomeHeader/HomeHeader";
 const SeoPage = () => {
@@ -41,6 +43,8 @@ const SeoPage = () => {
       </div>
       <HomeTestimonial />
       <SeoPackage />
+      <SeoFaq/>
+      <SeoContent/>
     </div>
   );
 };

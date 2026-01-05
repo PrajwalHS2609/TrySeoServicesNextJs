@@ -10,7 +10,7 @@ const SeoInCoimbatoreHead = () => {
         online presence. In a competitive market like Coimbatore, where
         businesses span various industries from textiles and education to IT and
         healthcare, the need for specialized{" "}
-        <a href="https://tryservice.com/">SEO services in Coimbatore </a>{" "}
+        <a href="https://Tryseoservices.com/">SEO services in Coimbatore </a>{" "}
         has never been more pronounced. With the right SEO strategies,
         businesses can capture the attention of their local audience, improve
         search rankings, and increase leads.

@@ -12,6 +12,7 @@ import ServiceSidebarBrochure from "./../ServiceSidebar/ServiceSidebarBrochure";
 import ServiceSidebarLinks from "./../ServiceSidebar/ServiceSidebarLinks";
 import ServiceBook from "./../ServiceSidebar/ServiceBook";
 import ServiceHeader from "../ServiceHeader/ServiceHeader";
+import ContentPageContent from "./ContentPageContent";
 
 const ContentPage = () => {
   return (
@@ -42,6 +43,7 @@ const ContentPage = () => {
       <ContentServicePackage />
       <HomeTestimonial />
       <ContentFaq />
+      <ContentPageContent/>
     </div>
   );
 };

@@ -25,7 +25,7 @@ const SeoInCoimbatore = () => {
         />
         <link
           rel="canonical"
-          href="https://tryservice.com/seo-services-in-coimbatore"
+          href="https://Tryseoservices.com/seo-services-in-coimbatore"
         />
       </Helmet>
       <SeoHeader />

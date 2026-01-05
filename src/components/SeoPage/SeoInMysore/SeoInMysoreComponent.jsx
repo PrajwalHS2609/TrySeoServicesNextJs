@@ -131,7 +131,7 @@ const SeoInMysoreComponent = () => {
         <p>
           Content is what engages users and provides value, and it’s also what
           search engines look for to assess relevance.{" "}
-          <a href="https://tryservice.com/seo-services-in-hyderabad">
+          <a href="https://Tryseoservices.com/seo-services-in-hyderabad">
             SEO Services in Mysore
           </a>
           {""}
@@ -186,7 +186,7 @@ const SeoInMysoreComponent = () => {
         <p>
           Link building remains a cornerstone of SEO. Quality backlinks from
           reputable websites increase your site’s credibility.{" "}
-          <a href="https://tryservice.com/seo-services-in-mysore">
+          <a href="https://Tryseoservices.com/seo-services-in-mysore">
             SEO Services in Mysore
           </a>{" "}
           focus on acquiring links from local websites, news publications, and

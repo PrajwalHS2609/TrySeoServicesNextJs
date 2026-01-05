@@ -31,7 +31,7 @@ const HomeAbout = () => {
             <span>Exceptional Marketing</span>
           </h2>
           <p>
-            At Tryservice.Com, we don’t just do marketing — we craft digital
+            At Tryseoservices.Com, we don’t just do marketing — we craft digital
             magic that transforms brands into powerhouses. Every click, every
             keyword, every campaign is designed to turn ordinary visibility into
             extraordinary growth.

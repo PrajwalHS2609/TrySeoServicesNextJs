@@ -10,12 +10,12 @@ const OnPageSeoHead = () => {
         In today's digital landscape, having a website is just the first step
         toward online success. To truly stand out and attract your target
         audience, you need{" "}
-        <a href="https://tryservice.com/on-page-seo-services-in-bangalore">
+        <a href="https://Tryseoservices.com/on-page-seo-services-in-bangalore">
           On-Page SEO Services in Bangalore
         </a>{" "}
         that enhance your website's visibility and usability. At
-        Tryservice.com, we specialize in providing tailored{" "}
-        <a href="https://tryservice.com/seo-services-in-bangalore">
+        Tryseoservices.com, we specialize in providing tailored{" "}
+        <a href="https://Tryseoservices.com/seo-services-in-bangalore">
           {" "}
           On-Page SEO Services in Bangalore
         </a>
@@ -29,7 +29,7 @@ const OnPageSeoHead = () => {
         On-Page SEO Services in Bangalore focus on optimizing individual web
         pages to improve their search engine rankings and earn more relevant
         traffic. Unlike{" "}
-        <a href="https://tryservice.com/seo-services-in-bangalore">
+        <a href="https://Tryseoservices.com/seo-services-in-bangalore">
           off-page SEO
         </a>
         , which deals with external factors, on-page SEO is all about what you

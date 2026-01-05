@@ -1,4 +1,4 @@
-import React, { Suspense } from "react";
+import React from "react";
 import HomeTestimonial from './../Homepage/HomeTestimonial/HomeTestimonial';
 import SmsService from "./SmsService/SmsService";
 import SmsFaq from "./SmsFaq/SmsFaq";

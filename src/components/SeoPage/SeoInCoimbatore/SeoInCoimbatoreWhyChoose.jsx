@@ -6,7 +6,7 @@ const SeoInCoimbatoreWhyChoose = () => {
       <h2>Why Choose Local SEO Services in Coimbatore?</h2>
       <p>
         Opting for{" "}
-        <a href="https://tryservice.com/seo-services-in-bangalore">
+        <a href="https://Tryseoservices.com/seo-services-in-bangalore">
           SEO services in Coimbatore
         </a>{" "}
         allows you to benefit from local expertise, as these agencies understand

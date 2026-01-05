@@ -7,7 +7,7 @@ const SeoInMysoreKey = () => {
       <h5>Key Benefits of SEO Services in Mysore</h5>
       <p>
         When you invest in{" "}
-        <a href="https://tryservice.com/seo-services-in-mysore">
+        <a href="https://Tryseoservices.com/seo-services-in-mysore">
           SEO Services in Mysore
         </a>{" "}
         , you’re setting your business up for growth by leveraging several key

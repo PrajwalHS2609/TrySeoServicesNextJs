@@ -14,7 +14,7 @@ const LocalSeoWhy = () => {
           <p>
             With most consumers using search engines to find local businesses,
             investing in{" "}
-            <a href="https://tryservice.com/on-page-seo-services-in-bangalore">
+            <a href="https://Tryseoservices.com/on-page-seo-services-in-bangalore">
               {" "}
               Local SEO Services in Bangalore
             </a>{" "}
@@ -41,7 +41,7 @@ const LocalSeoWhy = () => {
           <p>
             Businesses that rank well in local searches often have better
             credibility and reputation. By utilizing{" "}
-            <a href="https://tryservice.com/on-page-seo-services-in-bangalore">
+            <a href="https://Tryseoservices.com/on-page-seo-services-in-bangalore">
               {" "}
               Local SEO Services in Bangalore,
             </a>{" "}

@@ -14,7 +14,7 @@ const HomeWhatWe = () => {
           <h6>WHAT WE DO</h6>
           <h2>SEO Analytics & Strategy Skill</h2>
           <p>
-            <span> Tryservice.Com </span>is a one-stop platform for all your
+            <span> Tryseoservices.Com </span>is a one-stop platform for all your
             web related requirements. We consider that customized site
             development is a life-changing activity and we do everything we can
             to help companies to establish a space that puts them on par with

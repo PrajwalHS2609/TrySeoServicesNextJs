@@ -5,7 +5,7 @@ const OnPageSeoKey = () => {
     <div className="onPageSeoKey">
       <h3>Key Components of Our On-Page SEO Services</h3>
       <p>
-        At Tryservice.com, our <a href="https://tryservice.com/on-page-seo-services-in-bangalore">On-Page SEO Services in Bangalore</a> encompass a
+        At Tryseoservices.com, our <a href="https://Tryseoservices.com/on-page-seo-services-in-bangalore">On-Page SEO Services in Bangalore</a> encompass a
         comprehensive range of strategies tailored to your specific business
         goals. Here are some key components of our services:
       </p>
@@ -33,7 +33,7 @@ const OnPageSeoKey = () => {
         <h6>3. Meta Tags and Descriptions</h6>
         <p>
           Optimizing meta tags and descriptions is crucial for improving
-          click-through rates (CTR). Our <a href="https://tryservice.com/on-page-seo-services-in-bangalore"> On-Page SEO Services in Bangalore</a>
+          click-through rates (CTR). Our <a href="https://Tryseoservices.com/on-page-seo-services-in-bangalore"> On-Page SEO Services in Bangalore</a>
           include crafting compelling title tags and meta descriptions that
           entice users to click on your links in search results. We focus on
           making these elements relevant to the page's content while

@@ -1,93 +1,116 @@
-"use client"
+"use client";
 import React from "react";
 import Accordion from "react-bootstrap/Accordion";
-import "@/components/HomeFaq/HomeFaq.css"
+import "@/components/HomeFaq/HomeFaq.css";
 const WebsiteAcc = () => {
   return (
     <div className="homeFaqAcc">
       <Accordion>
         <Accordion.Item eventKey="0">
           <Accordion.Header>
-            <h5>What is Search Engine Optimization?</h5>
+            <h5>1. How much does website design in Bangalore cost?</h5>
           </Accordion.Header>
           <Accordion.Body>
             <p>
-              Search engine optimization (SEO) is the art and science of
-              acquiring pages to rank higher in search engines such as Google.
+              Website design costs in Bangalore vary based on features, pages,
+              and customization. Basic websites start affordably, while
+              advanced, SEO-optimized websites cost more depending on business
+              requirements.
             </p>
           </Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="1">
           <Accordion.Header>
-            <h5> How much does SEO Services Cost?</h5>
+            <h5>2. How long does it take to design a website?</h5>
           </Accordion.Header>
           <Accordion.Body>
             <p>
-              We are offering SEO services in Bangalore at affordable prices.
+              Most websites are completed within 10–25 working days, depending
+              on design complexity, content readiness, and feedback cycles.{" "}
             </p>
           </Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="3">
           <Accordion.Header>
-            <h5>When can SEO start giving me results?</h5>
+            <h5>3. Will my website be mobile-friendly?</h5>
           </Accordion.Header>
           <Accordion.Body>
             <p>
-              While there is no definitive answer regarding how long it takes to
-              get organic results from SEO efforts, but it usually takes four to
-              six months.
+              Yes. Professional website design in Bangalore includes fully
+              responsive design that works smoothly on mobiles, tablets, and
+              desktops.
             </p>
           </Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="4">
           <Accordion.Header>
-            <h5>Is SEO good for my business?</h5>
+            <h5>4. Is SEO included in website design?</h5>
           </Accordion.Header>
           <Accordion.Body>
             <p>
-              SEO is essential as it keeps the search results accurate. The
-              higher you rank in results pages, the more clicks and traffic your
-              site will get. It also enhances the user experience, making it
-              more likely for customers to become repeat buyers. It is also
-              cost-effective.
+              SEO-friendly structure is included. This helps your website load
+              faster, rank better on Google, and attract organic traffic.
             </p>
           </Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="6">
           <Accordion.Header>
-            <h5>What is the importance of a Local SEO?</h5>
+            <h5>5. Can you customize the website for my business?</h5>
           </Accordion.Header>
           <Accordion.Body>
             <p>
-              Local SEO makes your business stand out even if you do not have a
-              website and helps online leads generate more traffic to your
-              business. Because these leads come from people who are explicitly
-              looking for the products or services that your company provides,
-              you may expect a high conversion rate.
+              Absolutely. Website design is fully customized based on your
+              business type, branding, target audience, and goals.
             </p>
           </Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="7">
           <Accordion.Header>
-            <h5>Why SEO is important for your website?</h5>
+            <h5>6. Will I be able to update my website myself?</h5>
           </Accordion.Header>
           <Accordion.Body>
             <p>
-              SEO techniques improve a website’s usability and user experience
-              and make you stay ahead of your competitors.
+              Yes. Most websites are built on user-friendly platforms that allow
+              you to easily update text, images, and pages without technical
+              skills.
             </p>
           </Accordion.Body>
         </Accordion.Item>
+
         <Accordion.Item eventKey="8">
           <Accordion.Header>
-            <h5>How can I know if SEO is working for my brand?</h5>
+            <h5>8. Can you redesign my existing website?</h5>
           </Accordion.Header>
           <Accordion.Body>
             <p>
-              Boost in organic traffic is a great sign that your SEO is
-              performing. An increase in the number of pages that you are
-              ranking for means that your SEO is working and in the number of
-              searches online for your company’s name shows SEO is working.
+              Yes. Existing websites can be redesigned to improve appearance,
+              performance, mobile usability, and SEO rankings.
+            </p>
+          </Accordion.Body>
+        </Accordion.Item>
+        <Accordion.Item eventKey="9">
+          <Accordion.Header>
+            <h5>9. Will my website load fast?</h5>
+          </Accordion.Header>
+          <Accordion.Body>
+            <p>
+              Yes. Websites are optimized for speed, performance, and Google
+              Core Web Vitals for a better user experience.
+            </p>
+          </Accordion.Body>
+        </Accordion.Item>
+        <Accordion.Item eventKey="10">
+          <Accordion.Header>
+            <h5>
+              10. Why should I choose a local website design company in
+              Bangalore?
+            </h5>
+          </Accordion.Header>
+          <Accordion.Body>
+            <p>
+              A local website design company understands the Bangalore market,
+              audience behavior, and local SEO, helping your business grow
+              faster online.
             </p>
           </Accordion.Body>
         </Accordion.Item>

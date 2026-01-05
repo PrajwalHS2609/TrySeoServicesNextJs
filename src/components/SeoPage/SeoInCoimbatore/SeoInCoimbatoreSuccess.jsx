@@ -9,7 +9,7 @@ const SeoInCoimbatoreSuccess = () => {
       <p>
         If you’re ready to elevate your business’s online presence and attract
         more local customers, investing in{" "}
-        <a href="https://tryservice.com/seo-services-in-coimbatore">
+        <a href="https://Tryseoservices.com/seo-services-in-coimbatore">
           SEO services in Coimbatore
         </a>{" "}
         is the key. A professional SEO agency can analyze your current position,

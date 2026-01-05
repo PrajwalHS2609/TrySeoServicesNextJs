@@ -15,9 +15,9 @@ const SocialMediaWhyHead = () => {
         millions of potential customers and engaging with them in meaningful
         ways.
       </p>
-      <h4>Tryservice.com: Your Social Media Marketing Ally</h4>
+      <h4>Tryseoservices.com: Your Social Media Marketing Ally</h4>
       <p>
-        At Tryservice.com, we understand the intricacies of the digital
+        At Tryseoservices.com, we understand the intricacies of the digital
         landscape in Bangalore. Our team of experts is dedicated to helping
         businesses harness the full potential of social media marketing. Here’s
         what sets our services apart:

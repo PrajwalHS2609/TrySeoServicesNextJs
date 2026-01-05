@@ -23,7 +23,7 @@ const LocalSeo = () => {
         />
         <link
           rel="canonical"
-          href="https://tryservice.com/local-seo-services-in-bangalore"
+          href="https://Tryseoservices.com/local-seo-services-in-bangalore"
         />
       </Helmet>
       <SeoHeader />

@@ -23,7 +23,7 @@ const SeoChennai = () => {
         />
         <link
           rel="canonical"
-          href="https://tryservice.com/seo-services-in-chennai"
+          href="https://Tryseoservices.com/seo-services-in-chennai"
         />
       </Helmet>
       <SeoHeader />

@@ -7,7 +7,7 @@ const SeoChennaiElevate = () => {
       <p>
         In a digitally driven world, ranking well in search engines is crucial
         to business success.{" "}
-        <a href="https://tryservice.com/seo-services-in-coimbatore">
+        <a href="https://Tryseoservices.com/seo-services-in-coimbatore">
           SEO services in Chennai
         </a>{" "}
         provide businesses with the expertise and resources to stand out in a
@@ -18,7 +18,7 @@ const SeoChennaiElevate = () => {
       <p>
         From keyword research and content creation to technical optimization and
         link-building,{" "}
-        <a href="https://tryservice.com/seo-services-in-coimbatore">
+        <a href="https://Tryseoservices.com/seo-services-in-coimbatore">
           SEO services in Chennai
         </a>{" "}
         encompass every aspect necessary for online success. Partnering with a

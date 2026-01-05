@@ -7,7 +7,7 @@ const SeoInMysoreHead = () => {
       <p>
         Mysore is a thriving hub of business and culture, with a unique blend of
         local and international customers. To tap into this potential,{" "}
-        <a href="https://tryservice.com/seo-services-in-mysore">
+        <a href="https://Tryseoservices.com/seo-services-in-mysore">
           SEO Services in Mysore
         </a>{" "}
         are designed to connect businesses with customers who are actively
@@ -22,12 +22,12 @@ const SeoInMysoreHead = () => {
         Local SEO Services in Bangalore focus on optimizing your online presence
         to attract more business from relevant local searches. This involves
         various strategies designed to{" "}
-        <a href="https://tryservice.com/local-seo-secrets-get-ahead-in-your-hometown">
+        <a href="https://Tryseoservices.com/local-seo-secrets-get-ahead-in-your-hometown">
           improve your rankings in local search results
         </a>
         , particularly on platforms like Google Maps and local search engines.
         Unlike traditional SEO, which targets a broader audience,{" "}
-        <a href="https://tryservice.com/local-seo-services-in-bangalore">
+        <a href="https://Tryseoservices.com/local-seo-services-in-bangalore">
           local SEO
         </a>
         is all about reaching customers in your immediate geographic area.

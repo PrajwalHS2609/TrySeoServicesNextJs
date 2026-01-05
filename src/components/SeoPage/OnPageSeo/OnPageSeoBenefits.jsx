@@ -4,7 +4,7 @@ import point from "./../../../Img/point.png";
 const OnPageSeoBenefits = () => {
   return (
     <div className="OnPageSeoWhy">
-      <h5>Benefits of Choosing Tryservice.com</h5>
+      <h5>Benefits of Choosing Tryseoservices.com</h5>
       <p>
         When you choose our On-Page SEO Services in Bangalore, you are
         partnering with a dedicated team of SEO professionals committed to your
@@ -18,7 +18,7 @@ const OnPageSeoBenefits = () => {
           </span>
           <p>
             We understand that every business is unique. Our{" "}
-            <a href="https://tryservice.com/seo-services-in-bangalore">On-Page SEO Services in Bangalore</a> are tailored to
+            <a href="https://Tryseoservices.com/seo-services-in-bangalore">On-Page SEO Services in Bangalore</a> are tailored to
             meet your specific goals and objectives.
           </p>
         </li>{" "}
@@ -67,22 +67,22 @@ const OnPageSeoBenefits = () => {
         </li>
       </ul>
       <p>
-        Investing in <a href="https://tryservice.com/">On-Page SEO Services in Bangalore</a> is crucial
+        Investing in <a href="https://Tryseoservices.com/">On-Page SEO Services in Bangalore</a> is crucial
         for any business looking to thrive in the digital landscape. At
-        Tryservice.com, we provide comprehensive and tailored on-page SEO
+        Tryseoservices.com, we provide comprehensive and tailored on-page SEO
         strategies designed to improve your website's visibility, user
         experience, and overall performance.
       </p>
       <p>
         Don't let your website get lost in the vast online marketplace. Contact
         us today to learn more about our{" "}
-        <a href="https://tryservice.com/on-page-seo-services-in-bangalore">On-Page SEO Services in Bangalore</a> and how we can help you
+        <a href="https://Tryseoservices.com/on-page-seo-services-in-bangalore">On-Page SEO Services in Bangalore</a> and how we can help you
         unlock your website's full potential. Together, we can elevate your
         online presence and drive the results you’ve been dreaming of.
       </p>
       <p>
         Let us take care of your SEO needs while you focus on what you do
-        best—running your business! Reach out to Tryservice.com today and
+        best—running your business! Reach out to Tryseoservices.com today and
         take the first step toward digital success with our On-Page SEO Services
         in Bangalore.
       </p>

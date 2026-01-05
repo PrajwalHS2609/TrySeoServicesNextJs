@@ -27,7 +27,7 @@ const SocialMediaHeader = () => {
               build brand awareness, and drive real results. Bangalore, known as
               India’s Silicon Valley, is at the forefront of this digital
               revolution. In the heart of this tech-savvy city,
-              Tryservice.com is your trusted partner for navigating the
+              Tryseoservices.com is your trusted partner for navigating the
               dynamic world of social media marketing.
             </p>
             <div className="homeCoverBtnCover">

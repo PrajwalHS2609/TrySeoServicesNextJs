@@ -1,3 +1,4 @@
+import "@/components/style.css"
 export default function RootLayout({
   children,
 }: Readonly<{

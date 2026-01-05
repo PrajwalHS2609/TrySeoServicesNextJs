@@ -6,9 +6,9 @@ const WebsiteSmallWhy = () => {
     <div className="OnPageSeoWhy">
       <h5>Why Choose Our Website Design in Bangalore at Rs.10000?</h5>
       <p>
-        At Tryservice.com, we understand that a website is the face of your
+        At Tryseoservices.com, we understand that a website is the face of your
         business in the digital world. That's why our{" "}
-        <a href="https://tryservice.com/website-design-in-bangalore-at-rs-10000">Website Design in Bangalore at Rs.10000</a> service is
+        <a href="https://Tryseoservices.com/website-design-in-bangalore-at-rs-10000">Website Design in Bangalore at Rs.10000</a> service is
         focused on delivering websites that are not only aesthetically pleasing
         but also highly functional. Here’s why you should consider us for your
         web design needs:

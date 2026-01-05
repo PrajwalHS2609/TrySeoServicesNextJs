@@ -6,7 +6,7 @@ const FooterBio = () => {
   return (
     <div className="footerBio">
       <div className="footerBioImg">
-        <a href="https://tryservice.com/">
+        <a href="https://Tryseoservices.com/">
           {" "}
           <Image src={TSS} alt="" />
         </a>

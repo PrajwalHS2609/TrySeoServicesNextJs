@@ -1,23 +1,23 @@
 import React from "react";
-import ContentFaqAcc from "./ContentFaqAcc";
 import homeFaq from "./../../../Img/homePgImgs/homeFaq.jpg";
 import Image from "next/image";
+import SeoFaqAcc from "./SeoFaqAcc";
 
-const ContentFaq = () => {
+const SeoFaq = () => {
   return (
     <div className="homeFaq">
       <div className="homeFaqContent1">
-      <div className="homeFaqHead">
+        <div className="homeFaqHead">
           <h6>F.A.Q</h6>
           <h2>Most Trending & Popular Question</h2>
         </div>{" "}
-        <ContentFaqAcc />
+        <SeoFaqAcc />
       </div>
       <div className="homeFaqContent2">
-        <Image src={homeFaq} alt="homeFaq" loading="lazy" />
+        <Image src={homeFaq} alt="homeFaq" />
       </div>
     </div>
   );
 };
 
-export default ContentFaq;
+export default SeoFaq;

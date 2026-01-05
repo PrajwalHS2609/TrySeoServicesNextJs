@@ -9,117 +9,139 @@ const SocialMediaFaqAcc = () => {
       <Accordion>
         <Accordion.Item eventKey="0">
           <Accordion.Header>
-            <h5>What are social media marketing services?</h5>
+            <h5>
+              1. What is Social Media Marketing and how can it help my business
+              in Bangalore?
+            </h5>
           </Accordion.Header>
           <Accordion.Body>
             <p>
-              Social media marketing services encompass a range of strategies
-              and activities that businesses and individuals use to promote
-              their products, services, or personal brands on social media
-              platforms. This includes creating and sharing content, running
-              advertising campaigns, engaging with the audience, and more.
+              Social Media Marketing helps your business reach local Bangalore
+              customers, build brand awareness, generate leads, and increase
+              sales through platforms like Instagram, Facebook, and LinkedIn.
             </p>
           </Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="1">
           <Accordion.Header>
-            <h5>Why is social media marketing important?</h5>
+            <h5>
+              2. Which social media platforms are best for businesses in
+              Bangalore?
+            </h5>
           </Accordion.Header>
           <Accordion.Body>
             <p>
-              Social media marketing is crucial because it allows businesses to
-              connect with their target audience, build brand awareness, drive
-              website traffic, and increase sales. It’s a cost-effective way to
-              reach a global audience and engage with customers.
+              The best platforms depend on your business type. Instagram and
+              Facebook work well for local services and B2C brands, while
+              LinkedIn is ideal for B2B and professional services.
             </p>
           </Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="3">
           <Accordion.Header>
-            <h5>Which social media platforms should I use for marketing?</h5>
+            <h5>3. How much does Social Media Marketing in Bangalore cost?</h5>
           </Accordion.Header>
           <Accordion.Body>
             <p>
-              The choice of social media platforms depends on your target
-              audience and business goals. Some popular platforms include
-              Facebook, Instagram, Twitter, LinkedIn, Pinterest, and more. Your
-              strategy may involve a combination of platforms.
+              The cost varies based on platforms, content volume, and
+              advertising budget. Most businesses in Bangalore start with
+              affordable monthly packages that scale as results improve.
             </p>
           </Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="4">
           <Accordion.Header>
             <h5>
-              How can social media marketing services benefit my business?
+              4. How long does it take to see results from Social Media
+              Marketing?{" "}
             </h5>
           </Accordion.Header>
           <Accordion.Body>
             <p>
-              Social media marketing can benefit your business by increasing
-              brand visibility, driving website traffic, generating leads,
-              engaging with customers, and providing valuable insights through
-              analytics. It can also help you stay competitive and build brand
-              loyalty.
+              Basic engagement improves within a few weeks, while consistent
+              leads and brand growth typically take 2–3 months with regular
+              posting and optimized ad campaigns.
             </p>
           </Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="6">
           <Accordion.Header>
             <h5>
-              Is social media marketing cost-effective for small businesses?
+              5. Can Social Media Marketing help generate real leads and
+              inquiries?{" "}
             </h5>
           </Accordion.Header>
           <Accordion.Body>
             <p>
-              Yes, social media marketing is often more cost-effective than
-              traditional advertising methods. Small businesses with limited
-              budgets can create and promote content at a fraction of the cost
-              of traditional advertising, making it accessible to them.
+              Yes. With targeted ads, local audience reach, and
+              conversion-focused content, Social Media Marketing in Bangalore
+              can deliver quality leads and inquiries consistently.
             </p>
           </Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="7">
           <Accordion.Header>
-            <h5>
-              How can I measure the success of my social media marketing
-              efforts?
-            </h5>
+            <h5>6. Do I need paid ads or is organic posting enough?</h5>
           </Accordion.Header>
           <Accordion.Body>
             <p>
-              The success of your social media marketing efforts can be measured
-              through key performance indicators (KPIs) such as engagement
-              rates, website traffic, lead generation, conversion rates, and
-              ROI. Social media platforms provide analytics tools for tracking
-              these metrics.
+              Organic posting builds brand trust, but paid ads are essential for
+              faster reach, local visibility, and lead generation in a
+              competitive market like Bangalore.
             </p>
           </Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="8">
           <Accordion.Header>
-            <h5>What types of content can I share on social media?</h5>
+            <h5>
+              7. Is Social Media Marketing suitable for small and local
+              businesses?
+            </h5>
           </Accordion.Header>
           <Accordion.Body>
             <p>
-              You can share a variety of content, including text posts, images,
-              videos, infographics, blog articles, customer testimonials,
-              promotions, and user-generated content. The choice of content
-              should align with your audience’s preferences and your marketing
-              goals.
+              Absolutely. Local businesses benefit greatly from social media by
+              reaching nearby customers, promoting offers, and building
+              relationships within the Bangalore community.
             </p>
           </Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="9">
           <Accordion.Header>
-            <h5>How can I build a strong social media presence?</h5>
+            <h5>8. What type of content works best on social media?</h5>
           </Accordion.Header>
           <Accordion.Body>
             <p>
-              Building a strong social media presence involves creating a
-              content strategy, posting consistently, engaging with your
-              audience, using hashtags, running targeted ads, and monitoring
-              analytics. Building credibility and trust with your audience is
-              essential.
+              Educational posts, short videos, customer testimonials, local
+              updates, offers, and engaging visuals perform best for Social
+              Media Marketing in Bangalore.
+            </p>
+          </Accordion.Body>
+        </Accordion.Item>
+        <Accordion.Item eventKey="10">
+          <Accordion.Header>
+            <h5>9. How do I measure the success of Social Media Marketing?</h5>
+          </Accordion.Header>
+          <Accordion.Body>
+            <p>
+              Success is measured through reach, engagement, leads, website
+              visits, ad performance, and return on investment, all tracked
+              through detailed monthly reports.
+            </p>
+          </Accordion.Body>
+        </Accordion.Item>
+        <Accordion.Item eventKey="11">
+          <Accordion.Header>
+            <h5>
+              10. Why should I hire a professional Social Media Marketing agency
+              in Bangalore?
+            </h5>
+          </Accordion.Header>
+          <Accordion.Body>
+            <p>
+              A professional agency saves time, ensures consistent posting, runs
+              optimized ads, tracks performance, and helps your business grow
+              faster with expert strategies.
             </p>
           </Accordion.Body>
         </Accordion.Item>

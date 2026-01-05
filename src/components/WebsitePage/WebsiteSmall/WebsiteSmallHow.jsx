@@ -39,15 +39,15 @@ const WebsiteSmallHow = () => {
       <p>
         If you’re looking for an affordable yet professional web design service,
         our{" "}
-        <a href="https://tryservice.com/">
+        <a href="https://Tryseoservices.com/">
           Website Design in Bangalore at Rs.10000
         </a>{" "}
         is the perfect solution. Not only will you get a fully responsive,
         SEO-optimized website, but you'll also benefit from our deep
         understanding of digital marketing and user experience design. With
-        <a href="https://tryservice.com/website-designing-services-in-bangalore">
+        <a href="https://Tryseoservices.com/website-designing-services-in-bangalore">
           {" "}
-          Tryservice.com
+          Tryseoservices.com
         </a>
         , you can trust that your website will be both visually impressive and
         highly functional, helping you to attract and retain customers.
