@@ -6,6 +6,7 @@ import "@/components/style.css";
 import { client } from "@/sanity/client";
 import Carousel from "react-bootstrap/Carousel";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { FAQAccordion } from "./SanityComponents/SanityFAQAccordion";
 const builder = imageUrlBuilder(client);
 function urlFor(source: SanityImageSource) {
   return builder.image(source);
@@ -53,6 +54,11 @@ interface CarouselImage {
 interface CarouselBlockValue {
   title?: string;
   images: CarouselImage[];
+}
+interface SeoKeywordsBlockValue {
+  _type: "seoKeywordsBlock";
+  _key?: string;
+  keywords: string[];
 }
 export const portableTextComponents: PortableTextComponents = {
   types: {
@@ -132,30 +138,9 @@ export const portableTextComponents: PortableTextComponents = {
         </details>
       );
     },
-
-    // ------------------------------FAQ----------------------------------
-
-    faq: ({ value }: { value: FAQBlockValue }) => {
-      if (!value?.items?.length) return null;
-
-      return (
-        <div className="faq-section">
-          {value.title && <h2 className="faq-title">{value.title}</h2>}
-          <div className="accordion-items">
-            {value.items.map((item: FAQItem, idx: number) => (
-              <details key={idx} className="faq-item">
-                <summary className="faq-question">{item.question}</summary>
-                <div className="faq-answer">
-                  <PortableText
-                    value={item.answer}
-                    components={portableTextComponents}
-                  />
-                </div>
-              </details>
-            ))}
-          </div>
-        </div>
-      );
+    /* ---------- FAQ ---------- */
+    faq: ({ value }) => {
+      return <FAQAccordion value={value} components={portableTextComponents} />;
     },
 
     // --------------------------------------Quote------------------------------------
@@ -229,5 +214,19 @@ export const portableTextComponents: PortableTextComponents = {
         </Carousel>
       );
     },
+    seoKeywordsBlock: ({ value }: { value: SeoKeywordsBlockValue }) => {
+      if (!value?.keywords?.length) return null;
+
+      return (
+        <div className="keywords-container">
+          <ul className="keywords-list">
+            {value.keywords.map((keyword: string, index: number) => (
+              <li className="keywords-item" key={index}>{keyword}</li>
+            ))}
+          </ul>
+        </div>
+      );
+    },
   },
 };
+

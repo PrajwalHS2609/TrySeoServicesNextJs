@@ -4,6 +4,7 @@ import { PortableText, PortableTextBlock } from "next-sanity";
 import React, { useState } from "react";
 import SanityHeader from "./SanityHeader/SanityHeader";
 import { portableTextComponents } from "../PortableTextComponents";
+import SanitySeoKeywords from "./SanitySeoKeywords";
 
 export type FaqItem = { question: string; answer: PortableTextBlock[] };
 
@@ -27,6 +28,9 @@ export type ServiceContentType = {
   body1?: PortableTextBlock[];
   body2?: PortableTextBlock[];
   mainImage?: { asset?: { url?: string } };
+  seoKeywords?: {
+    keywords?: string[];
+  };
   youtubeVideoUrl?: string;
   faq?: FaqItem[];
   customTable?: CustomTable;
@@ -74,12 +78,10 @@ export default function ServiceContent({
                 height="500"
                 src={
                   youtubeUrl.includes("youtu.be")
-                    ? `https://www.youtube.com/embed/${
-                        youtubeUrl.split("/").pop()?.split("?")[0]
-                      }`
-                    : `https://www.youtube.com/embed/${
-                        youtubeUrl.split("v=")[1]?.split("&")[0]
-                      }`
+                    ? `https://www.youtube.com/embed/${youtubeUrl.split("/").pop()?.split("?")[0]
+                    }`
+                    : `https://www.youtube.com/embed/${youtubeUrl.split("v=")[1]?.split("&")[0]
+                    }`
                 }
                 title={content.title}
                 frameBorder="0"
@@ -123,7 +125,11 @@ export default function ServiceContent({
               )}
             </>
           )}
+
         </div>
+        {content.seoKeywords?.keywords && (
+          <SanitySeoKeywords keywords={content.seoKeywords.keywords} />
+        )}
       </div>
     </div>
   );

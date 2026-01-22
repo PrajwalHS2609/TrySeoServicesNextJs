@@ -41,7 +41,7 @@ const SERVICE_QUERY = `{
     mainImage { asset->{_id, url} },
     youtubeVideoUrl,
     faq,
-    customTable
+    customTable,
   },
   "carouselBlock": *[_type == "carouselBlock"][0]{
     title,
