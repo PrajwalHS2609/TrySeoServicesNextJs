@@ -1,13 +1,13 @@
 "use client"
 
 import { PortableText, PortableTextBlock } from "next-sanity";
-import React, { useState } from "react";
+import React from "react";
 import SanityHeader from "./SanityHeader/SanityHeader";
 import { portableTextComponents } from "../PortableTextComponents";
 import ServiceSidebarBrochure from "../ServiceSidebar/ServiceSidebarBrochure";
 import ServiceSidebarLinks from './../ServiceSidebar/ServiceSidebarLinks';
 import HomeTestimonial from "../Homepage/HomeTestimonial/HomeTestimonial";
-import EmailFaq from './../EmailPage/EmailFaq/EmailFaq';
+import SanityPricingTable from "./SanityPricingTable";
 
 export type FaqItem = { question: string; answer: PortableTextBlock[] };
 
@@ -17,6 +17,18 @@ export type CustomTable = {
   rows?: { cells: string[] }[];
 };
 
+export type PricingTableType = {
+  heading?: string;
+    tableTitle?: string
+  plans: {
+    name: string;
+    price: string;
+  }[];
+  features: {
+    label: string;
+    availability: boolean[];
+  }[];
+};
 export type CarouselImage = {
   asset?: { url?: string };
   alt?: string;
@@ -41,19 +53,16 @@ export type ServiceContentType = {
     title?: string;
     images?: CarouselImage[];
   };
+  pricingTable?: PricingTableType; // ✅ ADD THIS
+
 };
+
 export default function ServiceContent({
   content,
 }: {
   content: ServiceContentType;
 }) {
   const imageUrl = content?.mainImage?.asset?.url;
-  const youtubeUrl = content?.youtubeVideoUrl;
-  const [index, setIndex] = useState(0);
-
-  const handleSelect = (selectedIndex: number) => setIndex(selectedIndex);
-  const resolvedSlug =
-    typeof content.slug === "string" ? content.slug : content.slug?.current;
 
   return (
     <div className="main-container service-wrapper1">
@@ -110,8 +119,8 @@ export default function ServiceContent({
               </div>
 
               {/* {Array.isArray(content?.faq) && content.faq.length > 0 && (
-            <FaqComponent faqs={content.faq} />
-          )} */}
+              <FaqComponent faqs={content.faq} />
+            )} */}
             </div>
           )}
         </div>
@@ -180,7 +189,8 @@ export default function ServiceContent({
         </div>
       </div>
       <HomeTestimonial />
-      <EmailFaq />
-    </div>
+      {content.pricingTable && (
+        <SanityPricingTable data={content.pricingTable} />
+      )}    </div>
   );
 }

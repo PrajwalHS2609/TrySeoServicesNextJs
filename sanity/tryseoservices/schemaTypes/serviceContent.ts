@@ -53,5 +53,11 @@ export default defineType({
     //   title: 'SEO Keywords',
     //   type: 'seoKeywords',
     // }),
+    defineField({
+      name: 'pricingTable',
+      title: 'Pricing Table',
+      type: 'reference',
+      to: [{type: 'pricingTable'}],
+    }),
   ],
 })

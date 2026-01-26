@@ -11,6 +11,7 @@ import highlightBlock from './highlightBlock'
 import quoteContent from './quoteContent'
 import carouselBlock from './carouselBlock'
 import seoKeywordsBlock from './seoKeywordsBlock'
+import pricingTable from './pricingTable'
 export const schemaTypes = [
   post,
   blockContent,
@@ -24,5 +25,6 @@ export const schemaTypes = [
   highlightBlock,
   quoteContent,
   carouselBlock,
-  seoKeywordsBlock
+  seoKeywordsBlock,
+  pricingTable,
 ]

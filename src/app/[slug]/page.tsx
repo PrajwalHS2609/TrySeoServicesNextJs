@@ -42,7 +42,14 @@ const SERVICE_QUERY = `{
     youtubeVideoUrl,
     faq,
     customTable,
+        pricingTable->{
+    heading, 
+    tableTitle,
+    plans[]{ name, price },
+    features[]{ label, availability }
   },
+  },
+
   "carouselBlock": *[_type == "carouselBlock"][0]{
     title,
     images[] {
