@@ -4,7 +4,10 @@ import { PortableText, PortableTextBlock } from "next-sanity";
 import React, { useState } from "react";
 import SanityHeader from "./SanityHeader/SanityHeader";
 import { portableTextComponents } from "../PortableTextComponents";
-import SanitySeoKeywords from "./SanitySeoKeywords";
+import ServiceSidebarBrochure from "../ServiceSidebar/ServiceSidebarBrochure";
+import ServiceSidebarLinks from './../ServiceSidebar/ServiceSidebarLinks';
+import HomeTestimonial from "../Homepage/HomeTestimonial/HomeTestimonial";
+import EmailFaq from './../EmailPage/EmailFaq/EmailFaq';
 
 export type FaqItem = { question: string; answer: PortableTextBlock[] };
 
@@ -53,84 +56,131 @@ export default function ServiceContent({
     typeof content.slug === "string" ? content.slug : content.slug?.current;
 
   return (
-    <div className="slug-container">
-      <div className="slugService-container">
-        {imageUrl && (
-          <SanityHeader
-            img={imageUrl}
-            alt={content.title}
-            head={content.title}
-          />
-        )}
-        <div className="slugService-content">
-          <h1>{content.title}</h1>
+    <div className="main-container service-wrapper1">
+      {imageUrl && <SanityHeader headTitle={content.title} img={imageUrl} />}
+
+      <div className="componentDivider-container">
+        <div className="componentDivider-content">
+
+          <h1 className="service-heading">{content.title}</h1>
+
           {content.body1 && (
-            <PortableText
-              value={content.body1}
-              components={portableTextComponents}
-            />
-          )}
-          {/* ✅ YouTube Video Section */}
-          {youtubeUrl && (
-            <div className="youtube-container">
-              <iframe
-                width="100%"
-                height="500"
-                src={
-                  youtubeUrl.includes("youtu.be")
-                    ? `https://www.youtube.com/embed/${youtubeUrl.split("/").pop()?.split("?")[0]
-                    }`
-                    : `https://www.youtube.com/embed/${youtubeUrl.split("v=")[1]?.split("&")[0]
-                    }`
-                }
-                title={content.title}
-                frameBorder="0"
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              />
+            <div className="slugContent-wrapper">
+              <div className="head-container">
+                <PortableText
+                  value={content.body1}
+                  components={portableTextComponents}
+                />
+              </div>
             </div>
           )}
           {content.body2 && (
-            <>
-              <PortableText
-                value={content.body2}
-                components={portableTextComponents}
-              />
+            <div className="slugContent-wrapper">
+              <div className="slugContent-container">
+                <PortableText
+                  value={content.body2}
+                  components={portableTextComponents}
+                />
 
-              {/* ✅ Custom Table */}
-              {content.customTable && (
-                <div className="custom-table">
-                  {content.customTable.title && (
-                    <h3>{content.customTable.title}</h3>
-                  )}
-                  <table className="customTable-table">
-                    <thead>
-                      <tr>
-                        {content.customTable.headers?.map((header, idx) => (
-                          <th key={idx}>{header}</th>
-                        ))}
-                      </tr>
-                    </thead>
-                    <tbody>
-                      {content.customTable.rows?.map((row, rowIndex) => (
-                        <tr key={rowIndex}>
-                          {row.cells.map((cell, cellIndex) => (
-                            <td key={cellIndex}>{cell}</td>
+                {content.customTable && (
+                  <div className="custom-table">
+                    {content.customTable.title && (
+                      <h3>{content.customTable.title}</h3>
+                    )}
+                    <table>
+                      <thead>
+                        <tr>
+                          {content.customTable.headers?.map((header, idx) => (
+                            <th key={idx}>{header}</th>
                           ))}
                         </tr>
-                      ))}
-                    </tbody>
-                  </table>
-                </div>
-              )}
-            </>
-          )}
+                      </thead>
+                      <tbody>
+                        {content.customTable.rows?.map((row, rowIndex) => (
+                          <tr key={rowIndex}>
+                            {row.cells.map((cell, cellIndex) => (
+                              <td key={cellIndex}>{cell}</td>
+                            ))}
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
+                  </div>
+                )}
+              </div>
 
+              {/* {Array.isArray(content?.faq) && content.faq.length > 0 && (
+            <FaqComponent faqs={content.faq} />
+          )} */}
+            </div>
+          )}
         </div>
-        {content.seoKeywords?.keywords && (
-          <SanitySeoKeywords keywords={content.seoKeywords.keywords} />
-        )}
+        <div className="componentDivider-content">
+          <div className="componentDivider-item">
+            <div className="componentDivider-formContainer">
+              <div className="componentDivider-formContent">
+                <h2>Get in Touch</h2>
+                <form className="componentDivider-form" >
+                  <input
+                    type="text"
+                    placeholder="Full Name"
+                    name="name"
+                    required
+                  />
+                  <input
+                    type="tel"
+                    placeholder="Phone Number"
+                    name="phone"
+                    required
+                  />
+                  <input
+                    type="email"
+                    placeholder="Email Address"
+                    name="email"
+                    required
+                  />
+
+                  <select name="course" id="" required>
+                    <option value="">Select Course</option>
+                    <option value="SEO">
+                      SEO
+                    </option>
+                    <option value="Website">Website</option>
+                    <option value="Google Ads">Google Ads</option>
+                    <option value="Social Media Marketing">
+                      Social Media Marketing
+                    </option>
+                    <option value="Content Writing">
+                      Content Writing
+                    </option>
+                    <option value="Payment Gateway">
+                      Payment Gateway
+                    </option>
+                    <option value="Email Marketing">
+                      Email Marketing
+                    </option>
+                    <option value="Sms & WhatsApp Marketing">
+                      Sms & WhatsApp Marketing
+                    </option>
+                  </select>
+
+                  <textarea
+                    name="message"
+                    placeholder="Your Message"
+                  ></textarea>
+
+                  <button type="submit">Submit</button>
+                </form>
+              </div>
+
+            </div>{" "}
+            <ServiceSidebarBrochure />
+            <ServiceSidebarLinks />
+          </div>
+        </div>
       </div>
+      <HomeTestimonial />
+      <EmailFaq />
     </div>
   );
 }

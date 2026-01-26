@@ -1,3 +1,52 @@
+.main-container {
+  /* border: solid; */
+  padding: 0;
+}
+.service-wrapper1 {
+  width: 100%;
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; */
+  gap: 20px;
+}
+.head-container {
+  padding: 20px;
+}
+.head-container > p {
+  text-align: justify;
+  font-size: 18px;
+}
+.head-container > p > a {
+  color: var(--customColor);
+  text-decoration: none;
+}
+.componentDivider-content > h1 {
+  font-size: 40px;
+  color: var(--customColor);
+  text-align: center;
+}
+/* ------------------------Divider-------------------------- */
+.componentDivider-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.componentDivider-content:nth-child(1) {
+  /* border: solid red; */
+  width: 75%;
+  height: 100%;
+  padding: 20px;
+}
+.componentDivider-content:nth-child(2) {
+  /* border: solid green; */
+  width: 25%;
+  padding: 20px;
+  /* position: sticky; */
+  top: 120px;
+  left: 0;
+}
+
 .component-container {
   /* border: solid blue; */
   width: 100%;
@@ -58,6 +107,112 @@
     /* border: solid teal; */
     width: 100%;
     padding: 10px;
+  }
+}
+/* --------------------------------------Mba SideBar--------------------------- */
+
+.componentDivider-formContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.componentDivider-formContent {
+  width: 100%;
+  max-width: 550px;
+  background: var(--customBg1); /* light background */
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  animation: fadeIn 0.4s ease;
+}
+
+.componentDivider-formContent h2 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 25px;
+  color: var(--customColor);
+  font-weight: 600;
+}
+
+.componentDivider-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.componentDivider-form input,
+.componentDivider-form select,
+.componentDivider-form textarea {
+  width: 100%;
+  padding: 14px;
+  border-radius: 10px;
+  border: 1px solid var(--customBg);
+  background: var(--customBg);
+  font-size: 15px;
+  outline: none;
+  transition: all 0.2s ease;
+}
+
+.componentDivider-form input:focus,
+.componentDivider-form select:focus,
+.componentDivider-form textarea:focus {
+  border-color: #4b70f5;
+  background: #fff;
+  box-shadow: 0 0 0 3px rgba(75, 112, 245, 0.15);
+}
+
+.componentDivider-form textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.componentDivider-form button {
+  padding: 14px;
+  background: var(--customColor);
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: 0.2s ease;
+}
+
+.componentDivider-form button:hover {
+  background: var(--customBg);
+  color: var(--customColor);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@media screen and (max-width: 768px) {
+  .componentDivider-container {
+    flex-direction: column;
+  }
+  .componentDivider-content:nth-child(1) {
+    /* border: solid red; */
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+  }
+  .componentDivider-content:nth-child(2) {
+    /* border: solid green; */
+    width: 100%;
+    padding: 20px;
+    position: sticky;
+    top: 120px;
+    left: 0;
   }
 }
 .serviceHead {

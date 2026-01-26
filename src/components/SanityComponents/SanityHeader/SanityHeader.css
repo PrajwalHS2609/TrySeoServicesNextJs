@@ -30,7 +30,7 @@
   align-items: center;
 }
 .slugHeader-container {
-  /* border: solid ; */
+  /* border: solid red; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -55,7 +55,9 @@
   right: 0;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px;
 }
 .slugHeader-cover > h1 {
   font-size: 50px;
@@ -63,7 +65,16 @@
   text-align: center;
   width: 60%;
 }
-
+.slugHeader-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 60%;
+}
+.slugHeader-btn > a {
+  text-decoration: none;
+}
 @media screen and (min-width: 320px) and (max-width: 768px) {
   .slugHeader-cover > h1 {
     font-size: 30px;
@@ -235,7 +246,9 @@ blockquote > em {
   font-size: 1.05rem;
   position: relative;
   user-select: none;
-  transition: background 0.3s ease, color 0.3s ease;
+  transition:
+    background 0.3s ease,
+    color 0.3s ease;
   list-style: none;
 }
 .accordion-title > h3 {
@@ -254,7 +267,9 @@ blockquote > em {
   transform: translateY(-50%);
   font-size: 1.4rem;
   color: var(--customColor1);
-  transition: transform 0.3s ease, color 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    color 0.3s ease;
 }
 
 /* When accordion is open */
@@ -299,7 +314,6 @@ blockquote > em {
   border-color: var(--customColor2);
   box-shadow: 0 2px 8px var(--lightCustomColor);
 }
-
 
 /* ------------------------------Table--------------------------------------------- */
 .custom-table {

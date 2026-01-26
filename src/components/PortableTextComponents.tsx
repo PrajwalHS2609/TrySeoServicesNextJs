@@ -214,6 +214,8 @@ export const portableTextComponents: PortableTextComponents = {
         </Carousel>
       );
     },
+
+// ----------------------------------SeoKeyword-----------------------------------------
     seoKeywordsBlock: ({ value }: { value: SeoKeywordsBlockValue }) => {
       if (!value?.keywords?.length) return null;
 

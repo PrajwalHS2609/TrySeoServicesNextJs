@@ -17,7 +17,7 @@ export default defineType({
   preview: {
     prepare() {
       return {
-        title: "SEO Keywords (Hidden)",
+        title: "SEO Keyword",
       };
     },
   },
