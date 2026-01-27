@@ -48,11 +48,11 @@ export default defineType({
       title: 'Meta Description',
       type: 'text',
     }),
-    // defineField({
-    //   name: 'seoKeywords',
-    //   title: 'SEO Keywords',
-    //   type: 'seoKeywords',
-    // }),
+    defineField({
+      name: 'seoKeywordsBlock',
+      title: 'SEO Keywords Block',
+      type: 'seoKeywordsBlock',
+    }),
     defineField({
       name: 'pricingTable',
       title: 'Pricing Table',
