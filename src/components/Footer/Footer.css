@@ -76,6 +76,9 @@
   font-size: 20px;
   color: white;
 }
+.footerCopy > p >a{
+  color: white;text-decoration: none;
+}
 /* ---------------footerService-------------------------- */
 .footerService {
   /* border: solid yellow; */
