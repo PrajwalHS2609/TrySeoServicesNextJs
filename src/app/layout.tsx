@@ -10,6 +10,8 @@ import "@/components/style.css";
 import { usePathname } from "next/navigation";
 import LpMedicalNavbar from "./../components/LandingPage/LpMedical/LpMedicalNavbar/LpMedicalNavbar";
 import LpPetsNavbar from "./../components/LandingPage/LpPetsClinic/LpPetsNavbar/LpPetsNavbar";
+import { useEffect, useState } from "react";
+import Loader from './../components/Loader/Loader';
 
 
 const archivo = Archivo({
@@ -24,6 +26,17 @@ export default function RootLayout({
   const pathname = usePathname();
   const isMedicalLanding = pathname.startsWith("/lp-medical");
   const isPetsLanding = pathname.startsWith("/lp-petclinic");
+  
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    // fake loading for animation effect
+    const timeout = setTimeout(() => {
+      setLoading(false);
+    }, 1200);
+
+    return () => clearTimeout(timeout);
+  }, []);
   return (
     <html lang="en">
       <head>
@@ -48,7 +61,7 @@ export default function RootLayout({
           <Navbar />
         )}
 
-        {children}
+        {loading ? <Loader /> : children}
         {/* Footers only on non-landing pages */}
         {!isMedicalLanding && !isPetsLanding && <Footer />}
         {!isMedicalLanding && !isPetsLanding && <WhatsApp />}
