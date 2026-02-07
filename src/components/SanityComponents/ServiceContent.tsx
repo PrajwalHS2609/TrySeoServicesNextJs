@@ -150,7 +150,7 @@ export default function ServiceContent({
                   />
 
                   <select name="course" id="" required>
-                    <option value="">Select Course</option>
+                    <option value="">Select Service</option>
                     <option value="SEO">
                       SEO
                     </option>
