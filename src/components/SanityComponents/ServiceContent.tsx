@@ -8,6 +8,7 @@ import ServiceSidebarBrochure from "../ServiceSidebar/ServiceSidebarBrochure";
 import ServiceSidebarLinks from './../ServiceSidebar/ServiceSidebarLinks';
 import HomeTestimonial from "../Homepage/HomeTestimonial/HomeTestimonial";
 import SanityPricingTable from "./SanityPricingTable";
+import Swal from "sweetalert2";
 
 export type FaqItem = { question: string; answer: PortableTextBlock[] };
 
@@ -62,6 +63,42 @@ export default function ServiceContent({
 }: {
   content: ServiceContentType;
 }) {
+    const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+    const form = event.currentTarget;
+    const formData = new FormData(form);
+
+    // ✅ Add your Web3Forms access key
+    formData.append("access_key", "7a49c951-139a-412a-b3a5-6d69beb45d96");
+
+    const object = Object.fromEntries(formData.entries());
+    const json = JSON.stringify(object);
+
+    const res = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json",
+      },
+      body: json,
+    }).then((res) => res.json());
+
+    if (res.success) {
+      Swal.fire({
+        title: "Success!",
+        text: "Mail Sent successfully",
+        icon: "success",
+        confirmButtonText: "OK",
+      });
+      form.reset();
+    } else {
+      Swal.fire({
+        title: "Error!",
+        text: "Something went wrong. Please try again later.",
+        icon: "error",
+      });
+    }
+  };
   const imageUrl = content?.mainImage?.asset?.url;
 
   return (
@@ -129,7 +166,7 @@ export default function ServiceContent({
             <div className="componentDivider-formContainer">
               <div className="componentDivider-formContent">
                 <h2>Get in Touch</h2>
-                <form className="componentDivider-form" >
+                <form className="componentDivider-form" onSubmit={handleSubmit} >
                   <input
                     type="text"
                     placeholder="Full Name"
