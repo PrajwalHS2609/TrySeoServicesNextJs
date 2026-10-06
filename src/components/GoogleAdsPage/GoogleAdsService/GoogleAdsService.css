@@ -1,4 +1,5 @@
 .googleAdsServiceHead {
+  /* border: solid red; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -60,4 +61,10 @@
 }
 .googleAds {
   color: var(--customColor);
+}
+@media screen and (max-width:768px){
+.googleAdsServiceHead {
+
+  padding:0px;
+}
 }
